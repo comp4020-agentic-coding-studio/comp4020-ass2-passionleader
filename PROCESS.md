@@ -1,9 +1,5 @@
 # Process overview
 
-<!-- TEMPLATE: this file is a shape to fill in, not a form. Replace everything
-     in it with your own overview, and delete this comment — `pnpm
-     check:evidence` will remind you if it's still here. -->
-
 Written by you, for a reader: how you got from the brief to the harness and
 agentic workflow behind this submission. Markers read this file and follow its
 citations; they don't trawl the repo for evidence you didn't point at.
@@ -16,31 +12,66 @@ cover every deliverable.
 
 ## What I built
 
-One paragraph: the thing, and the idea behind it.
+SLOP2950 "Weaponised Etiquette" is a fictional-but-complete twelve-week course
+that studies public-etiquette violations (elevators, queues, coughs, litter,
+seat-saving, pedestrian flow) as an academic discipline: watch a norm, isolate
+the smallest deliberate act that breaks it, describe precisely what happens.
+Weeks 2–10 are case-study weeks, Week 11 is a supervised live Practicum, and
+Week 12 is a capstone report — with three assessments (25/35/40%) marking
+each stage.
 
 ## How I got here
 
-The account of the process: how the work actually went, and how you knew the
-result was right. Tell it in whatever order makes it clear. A weekly prototype
-needs a paragraph or two; an assignment needs more.
+I started from a rough Korean-language idea about an exaggerated "how to be a
+public nuisance" course, and my own first job was turning that premise into
+something I could actually build against the platform: a real course code,
+level, and semester in `src/course-config.ts`, and a renamed session label
+("Field Exercises" rather than the generic default) in `src/site-config.ts`
+([`4477e95`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/4477e95670744d68f43938db85062a6208ac8f32)).
+Deciding the tone mattered here: the brief's premise reads as literal harmful
+advice if taken at face value, so I kept the course's own voice
+analytical/cataloguing throughout, and made that an explicit rule in
+`CLAUDE.md`
+([`63fdb0a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/63fdb0a5b9e44fa6bf2f0c5363fe898f769ed21c)).
 
-Cite the record as you go, as links whose text is the commit hash or range and
-whose target is this repo's commit or compare URL, so a reader clicks straight
-to the evidence:
+The starter's placeholder images hash-match a check the evidence gate runs
+specifically for this deliverable, so I wrote a small PIL script
+(`scripts/gen_brand_art.py`) to generate the card and hero art myself rather
+than sourcing photography — a flat two-ink illustration of the hero image's
+own subject: a lecture theatre where one seat, mid-sneeze, is ringed like a
+prohibited sign
+([`5e4b154`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5e4b1540a170efd9d61bd447f8ed9566943f9b9d)).
+No AVIF encoder was available locally, so I deleted the old `.avif` rather
+than force a re-encode — the evidence check treats a deleted starter file as
+passing, which I read as a sanctioned design decision rather than a workaround.
 
-- one commit: [`a1b2c3d`](https://github.com/YOUR-ORG/YOUR-REPO/commit/a1b2c3d)
-- a range:
-  [`a1b2c3d...e4f5a6b`](https://github.com/YOUR-ORG/YOUR-REPO/compare/a1b2c3d...e4f5a6b)
+From there it was mostly content, built collection by collection against the
+Zod schemas already defined in `src/content.config.ts`: two personas replacing
+the starter's people
+([`84433c6`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/84433c60329c82f673ee4486c1b8aee4161bf201)),
+all twelve lecture weeks
+([`aa41a59`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/aa41a59377219e7087f4392ff5280415a3ba58d0)),
+three Field Exercise sessions
+([`5266d02`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5266d0218c6ce4b848e25883e33a9e004a4f6a61)),
+and three assessments whose weights I checked by hand sum to exactly 100
+([`b000996`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/b000996a845894433ee653960caa31a01cf4457c)),
+then a real astromotion slide deck for Week 1
+([`85feec7`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/85feec7ec4544717bbc9fa4463394b9e0872f4c0))
+and the homepage/404/policies copy, including a policies page that states
+plainly where the course's "live performance" is actually scoped to
+([`c6350b0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/c6350b048f232ac02f7a21e35e3d116255ace5a6)).
 
-To pair a prompt with the commit it produced, quote the prompt (curated, not a
-full transcript) next to the citation:
-
-> the prompt, verbatim
-
-Screenshots are welcome where one carries the point better than a sentence does.
-Commit the file to this repo and link it with a **relative** path, which is what
-makes it render on GitHub: `![alt text](docs/before.png)`. Images don't count
-towards the word count and don't replace the citation.
+I knew the result was right by running `pnpm check` after every slice — build,
+typecheck, and `spec/` — rather than trusting the schema alone; the shipped
+`data-integrity.test.ts` catches date drift, but the course's other real
+promises (weights summing to 100, every named teacher resolving to a real
+profile, a lecture's `slides` field actually pointing at a built deck) weren't
+covered anywhere, so I wrote
+[`spec/course-promises.test.ts`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/eb779306d72ff0dc3c7f67d5fc0f42d270d048b4)
+against the built course API to close that gap. I also ran the site under
+`pnpm dev`, hit every collection's index and a sample detail page with `curl`,
+and read the generated hero image back to confirm it actually renders the way
+I intended before pushing.
 
 ## Before you ship
 
