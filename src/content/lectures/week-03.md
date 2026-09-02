@@ -1,0 +1,31 @@
+---
+title: "Week 3: Power Dynamics of the Elevator"
+description:
+  A box with one door, one button panel, and no way to leave — read as the
+  purest small-scale power structure in the built environment.
+week: 3
+date: 2027-08-09
+teachers:
+  - perpetua-vance
+---
+
+No public space compresses status signalling the way an elevator does. Who
+holds the door, who reaches for the close-door button, who stands where
+relative to the panel, who is expected to press the floor for someone who
+boarded after them — all of it is settled in the first two seconds, silently,
+by people who have never discussed it and never will.
+
+This week treats the elevator as a closed system: fixed capacity, fixed exits,
+short duration, high density. That combination is what makes its etiquette so
+rigid and so easy to disrupt with a single small deviation — holding the door
+a beat too long, standing in the wrong third of the car, or reaching past
+someone to press a floor they hadn't asked for.
+
+## Outline
+
+- the panel as a status object: who operates it, and why that's rarely
+  contested
+- door-holding as a negotiation with no words
+- the "wrong third of the car": personal space in a box that can't expand
+- case studies: single-input disruptions and how fast a car full of strangers
+  recalibrates
