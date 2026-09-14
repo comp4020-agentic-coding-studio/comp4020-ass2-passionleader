@@ -1,13 +1,13 @@
 ---
-title: "Week 2 Tutorial: Deniable Sounds, Audience-less Acts"
+title: "Week 2 Tutorial: Deniable to Overt"
 description:
-  Applying the timing/target/aftermath framework to a cough, and the
-  aftermath-reading method to threshold litter — the deck's two cases.
+  Applying the timing/target/aftermath framework to a cough, then contrasting
+  it against a classroom violation nobody could call an accident.
 week: 2
 date: 2027-08-03
 teachers:
   - wei-lin-chow
-  - amara-chukwu
+  - haruto-tanaka
 related:
   - lectures/week-02
 ---
@@ -19,25 +19,23 @@ timed exactly as a classmate's bag-rustling stops — and generate one variant
 where the timing, target, or aftermath signal is more ambiguous than the
 original.
 
-## Activity, part two: threshold litter
+## Activity, part two: overt conduct
 
-Walk a short, familiar route past at least one public bin and note where
-litter actually accumulates relative to it — right at the bin, a few metres
-short, or somewhere else entirely. Note whether you can identify who dropped
-anything: the lecture's point is that littering is usually audience-less —
-you're reading a trace, not watching an act.
+Take the phone-call case from the lecture and write a version where the
+"disruption" is instead a strong-smelling or crinkly snack opened mid-class.
+Note what, if anything, is still deniable about it — and what plainly isn't.
 
 ## Record your reaction
 
 For the cough variant, note which of the lecture's three signals (timing,
 target, aftermath) is doing the most work in deciding whether a room would
-read it as accidental or performed. For the litter walk, note what reading
-the aftermath instead of watching the moment changes about what counts as
-evidence.
+read it as accidental or performed. For the overt-conduct variant, note
+that there is no equivalent signal to weigh — the choice was never in
+question — and what the room argues about instead.
 
 ## Reflection
 
 Rewrite either of the deck's Bad manner examples as its Good manner
 counterpart in your own words, and state in one sentence why the good-manner
 version costs less than the bad-manner one — for the cough, or for the
-litter.
+overt case.

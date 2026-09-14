@@ -20,5 +20,6 @@ actually observed happen next.
 
 The room — both convenors and your cohort — will push on where the evidence
 is thin. This isn't marked, but it's the last checkpoint before Week 7's
-queueing case study and the Practicum in Week 11, so treat the pushback as
-the cheapest correction you'll get before those count.
+queueing and threshold-litter case studies and the Practicum in Week 11, so
+treat the pushback as the cheapest correction you'll get before those
+count.

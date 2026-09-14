@@ -1,9 +1,9 @@
 ---
-title: "Week 7: Common Manners II — Queueing and Turn-Taking"
+title: "Week 7: Common Manners — Queueing and Threshold Litter"
 description:
-  A queue is a norm with no physical enforcement at all — this week asks
-  why it holds anyway, and exactly how it fails, wherever a line of
-  strangers forms.
+  Two space-agnostic public-commons cases — a queue held together by
+  nothing but mutual glaring, and litter that piles up in the last few
+  metres before a bin. Assignment 2 due this week.
 week: 7
 date: 2027-09-06
 teachers:
@@ -15,26 +15,29 @@ related:
 slides: /decks/week-07/
 ---
 
-This is the second of the course's "common manners" weeks — queueing isn't
-tied to any one physical space either. The same pattern shows up at a store
-counter, a bus stop, a food stall, or wherever else a line of strangers has
-to agree, without ever discussing it, on whose turn it is.
+This week studies two cases that share one property: neither is tied to
+any single physical space. A queue forms wherever strangers need to agree,
+without ever discussing it, on whose turn it is. Litter accumulates
+wherever a bin is close enough to reach and somebody chooses not to. Both
+are commons behaviors — the pattern repeats at a store counter, a bus stop,
+a food stall, or a footpath, with no physical enforcement beyond what
+other people are willing to do about it.
 
 A queue is, structurally, nothing: no rope, no numbered ticket in most
 cases, just an agreement among strangers about whose turn it is. That it
 holds at all — that dozens of people will stand in a line enforced by
 nothing but mutual glaring — is this course's cleanest example of a norm
-doing the work of a rule.
+doing the work of a rule. We treat "cutting" as a spectrum: the person who
+asks first, the person who exploits an ambiguous merge, and the person who
+simply walks to the front, each met with a different intensity of social
+response.
 
-This week studies where that agreement is strongest (a single-file line
-with a clear front) and where it's weakest (an ambiguous cluster near a
-counter, a queue that forked around an obstacle and never re-merged
-cleanly). We treat "cutting" as a spectrum: the person who asks first, the
-person who exploits an ambiguous merge, and the person who simply walks to
-the front, each of whom is met with a different intensity of social
-response. Isolating that spectrum — deniable to blatant — is this week's
-case of the method the course opened with: find the smallest act that
-still counts as a violation.
+Litter's interest is almost the opposite: it has almost no immediate
+audience. The person who benefits from not carrying a wrapper to a bin is
+rarely watched doing it, and the person who eventually pays is rarely the
+person who saw it happen. Isolating the act here means reading the
+aftermath instead of watching the moment — the same method as the queue,
+applied where there was never really an audience to begin with.
 
 ## Outline
 
@@ -43,7 +46,9 @@ still counts as a violation.
 - where queues are structurally strong versus structurally ambiguous
 - a spectrum of cutting, from "excuse me, is this the line" to walking
   straight to the front
-- case study: an unmarked store counter, as one instance of a pattern that
-  isn't specific to any single venue
+- threshold litter: what accumulates before a bin, and what that distance
+  tells you about tolerance for inconvenience
+- discussion: what queueing and litter share as commons behaviors with no
+  fixed venue
 - your Assignment 2 is due this week — see the
   [assessment page](/assessments/assignment-2/) for what it's marked against

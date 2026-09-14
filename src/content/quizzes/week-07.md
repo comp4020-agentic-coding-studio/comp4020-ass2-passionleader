@@ -1,6 +1,6 @@
 ---
 title: "Week 7 Quiz"
-description: Checking whether this week's queueing-as-unenforced-norm reading landed.
+description: Checking whether this week's queueing-and-threshold-litter reading landed.
 week: 7
 related:
   - lectures/week-07
@@ -13,28 +13,28 @@ questions:
       - "A physical barrier like a rope or turnstile"
       - "A numbered-ticket system used at every counter"
     correctIndex: 0
-  - question: "Where does the lecture say a queue's implicit agreement is weakest?"
+  - question: "What property do queueing and threshold litter share that justifies studying them in the same week?"
     options:
-      - "An ambiguous cluster near a counter, or a queue that forked and never re-merged cleanly"
-      - "A single-file line with a clear front"
-      - "Any queue longer than ten people"
-      - "Queues that use numbered tickets"
+      - "Neither is tied to a single physical space — both recur wherever strangers share public space"
+      - "Both are illegal in most jurisdictions"
+      - "Both only happen at store counters"
+      - "Both require a witness to be classified as a violation"
     correctIndex: 0
-  - question: "In this week's Bad manner / Good manner pair, what does the good-manner customer do before stepping up to the counter?"
+  - question: "Why does the course call littering an \"audience-less nuisance\"?"
     options:
-      - "Checks who else is waiting and asks \"who's next?\""
-      - "Waits for a staff member to call a number"
-      - "Lets everyone else go first, regardless of arrival order"
-      - "Takes a numbered ticket from a dispenser"
+      - "The person who benefits from the act is rarely watched doing it"
+      - "It is the only case study that is illegal"
+      - "It never carries any social cost"
+      - "It always happens indoors"
     correctIndex: 0
-  - question: "Why does the course treat the cutting spectrum as a general public-space pattern rather than a counter-specific one?"
+  - question: "In this week's Bad manner / Good manner pairs, what does the good-manner version actually cost the person doing it?"
     options:
-      - "The same escalation shows up wherever strangers form an unmarked line, not just at a store register"
-      - "Because cutting only happens at store counters"
-      - "Because every queue eventually becomes a numbered-ticket system"
-      - "Because store counters are the only queues this course studies"
+      - "Very little — asking \"who's next?\" or a few extra steps, smaller than the effort just avoided"
+      - "A formal apology to everyone nearby"
+      - "A fine or other legal penalty"
+      - "Nothing changes between the two versions"
     correctIndex: 0
 ---
 
-Four questions on why a queue holds even though nothing physically enforces
-it, wherever strangers form one.
+Four questions across this week's two commons cases: queueing and
+threshold litter.
