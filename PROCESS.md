@@ -355,6 +355,74 @@ Also logged, explicitly deferred by the user to a later round: redesign
 the Slop University logo/favicon into something deliberately silly-looking
 to match the site's satirical tone. No code touched for this yet.
 
+The second batch's architecture landed first, since it was the more
+self-contained piece: two new content collections (`tutorials`, `quizzes`),
+a nav reorder (Lectures/Tutorial/Quiz/Assessment/Drop-in Sessions/People/
+Resources & Policies — dropping Help, merging the old Resources page into
+Policies), and an interactive client-side quiz component
+([`132c2bf`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/132c2bf)),
+delegated to `ux`. Two design decisions were surfaced back to the user
+rather than assumed, since both were genuinely open calls with no obvious
+default: quiz interactivity (picked **interactive scoring** — click an
+answer, get immediate right/wrong feedback — over a static reveal-in-
+`<details>` sheet) and whether the new Tutorial/Quiz content counts toward
+the final grade (picked **graded**). Grading that decision out required a
+weight rebalance: two new holistically-marked aggregate assessments
+("Tutorial Participation," 5%, "Weekly Quizzes," 10%) absorb the grade
+impact, with the three pre-existing assessments brought down by 5 points
+each so the total still sums to exactly 100 (20+30+35+5+10) — the
+per-week entries themselves stay ungraded individually, which avoided nine
+awkwardly tiny fractional weights.
+
+I independently re-verified this batch before accepting it rather than
+trusting the completion report alone: read the actual schema diff, hand-
+summed the weights, read the full quiz-component source, and screenshotted
+the live nav/assessments/policies pages after restarting the dev server.
+`content.config.ts` is technically outside `ux`'s normal page/nav lane
+(it's a schema file) — noted explicitly back to them that editing it here
+was correctly authorized by direct instruction, not a boundary slip.
+
+The image-sourcing rollout continued in parallel, delegated to
+`design-assets`: weeks 2, 4-9 each got their `<Icon>` pair replaced with a
+real, attributed Pexels photo per verdict
+([`1b36245`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/1b36245)),
+with an EXIF-vs-page-credit check run on every photo before use (no
+conflicts found this round, unlike week-03's earlier hiccup). Reviewing
+the actual files caught something the build couldn't: five of those six
+weeks still carry the old abstract "Wrong vs. right" wording underneath
+the new photos, not the concrete Bad-manner/Good-manner rewrite that
+motivated this whole redesign in the first place. That text rewrite is
+`teaching-a`'s piece and hadn't landed yet, so the photo swap and the copy
+rewrite are proceeding as two separate commits per week rather than one —
+flagged directly to `teaching-a` as the higher priority over new tutorial/
+quiz content.
+
+The accent-colour change also shipped this round
+([`e8fd7dd`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e8fd7dd)):
+red over brown or dark navy, after the user compared swatch mockups of
+all three directly. Only `brand.css`'s three tokens and
+`gen_brand_art.py`'s matching constants needed to change, since the theme
+derives every other colour relationally — `card.png`/`hero-home.png` were
+regenerated to match. The "responsive button" hover/press/focus polish
+from the original ask is still outstanding; no page in the site actually
+uses the theme's button component yet (the new quiz's "Check answer"
+button is a plain unstyled `<button>`), so that polish needs to land
+alongside, or ahead of, whatever first gives it something to style.
+
+Separately, reviewing `design-assets`' new People-tab avatar work (8
+flat-vector silhouette portraits, one per person, standing in for real
+photos of fictional people) turned up a real rendering bug rather than a
+reporting gap: the site's fixed-platform theme force-crops any image
+passed to the People grid card (16:9, centre-anchored) and an even more
+aggressive crop on the People detail page's hero banner, and the avatars'
+square canvas with a corner badge doesn't survive either crop — the badge
+gets clipped to a sliver on the grid, and the detail-page hero cuts away
+most of the face. Caught via an actual rendered-page screenshot, not the
+build log, consistent with this file's own standing rule below. Reported
+back to `design-assets` with the exact CSS evidence rather than guessing
+at a fix; the avatar batch stays uncommitted until the composition (wider
+canvas, face/badge centred vertically) is corrected.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
