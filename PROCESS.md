@@ -271,6 +271,23 @@ consistent isolate-before-verdict pattern. I also asked `teaching-b`
 for a non-blocking final glance at the two rewritten decks rather than
 waiting on it before closing the round out.
 
+That glance paid off. `teaching-b` confirmed week-04 was solid and the
+Assignment 1/2 mislabel fix was correct in both places, but flagged the
+same tension I'd noticed myself in week-05: the new Wrong/Right pair
+and Q3 introduced a second variable, "time-empty," that appears nowhere
+in `week-05.md` or the deck's own outline bullet — both commit to
+scarcity alone as "the variable that changes everything," which Q1
+already tests directly. I verified this against the lecture file myself
+before acting rather than taking the critique on trust, confirmed it
+was accurate, and narrowed the Wrong/Right pair and Q3 back to scarcity
+only, swapping the now-mismatched hourglass icon for the binocular icon
+the other isolate-before-verdict weeks use
+([`613b6cf`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/613b6cf)).
+`pnpm check` stayed green throughout and the page still renders
+correctly. This is the kind of thing a second content reviewer catches
+that the original author and I both missed on the first pass — exactly
+why the round included a non-blocking check rather than skipping it.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
