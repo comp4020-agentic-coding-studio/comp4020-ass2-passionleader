@@ -98,6 +98,26 @@ already narrates, and had its now-answered "Open questions" resolved instead
 of left looking outdated
 ([`bcb5f62`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/bcb5f62)).
 
+I then ran the `teaching-a`/`teaching-b` debate round I'd deferred above,
+relayed by hand: `teaching-a` drafted tone-drift fixes and method-anchor
+sentences across the lecture set, `teaching-b` critiqued them for redundancy
+and one consent-boundary gap in the Practicum framing, and I reconciled both
+rounds against the live files myself rather than applying either agent's
+diff verbatim — the week-06 insertion in particular got a different point
+and wording than either proposed
+([`86cce2a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/86cce2ad25de1b6331bf3a6db46e54c06f792f8d)).
+
+That surfaced a real gap in the review harness: `qa`'s scan only runs
+`pnpm check`/`check:evidence`, which never render a page, so I did a manual
+pass with headless Chrome (`google-chrome --headless=new
+--screenshot=...`) across every lecture, session, assessment, and index
+page and read the resulting PNGs directly. That caught a bug none of the
+automated checks or agent text-review had: `src/pages/lectures/[slug].astro`
+re-prepended `Week N:` onto a lecture `title` that already had it baked in,
+so all 12 lecture pages rendered the prefix twice in the browser tab and the
+`<h1>`. Fixed and re-verified with a fresh screenshot
+([`0208664`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/0208664131d233404f3a491e5bd930b1cc28e60e)).
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
