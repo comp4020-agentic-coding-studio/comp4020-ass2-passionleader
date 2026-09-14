@@ -523,10 +523,12 @@ Dr. Vance's photo swap is committed alongside it
 ([`f90a715`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/f90a715)):
 a free-to-use Pexels portrait, credited to the actual photographer rather than
 a placeholder, checked by fetching the source listing directly rather than
-trusting the credit as reported. Week 5's own new café photos are held back
-for the same reason — the attribution is plausible (both named photographers
-have real Pexels profiles) but not yet confirmed against the exact source
-listing, so it isn't committed until that check closes.
+trusting the credit as reported. Week 5's own new café photos were held back for the same reason until
+design-assets sent the two exact Pexels listing URLs; fetching both directly
+confirmed the photographer names, the "Free to use" license, and the photo
+descriptions all matched what was actually wired into the slide, so it's
+committed too
+([`30a9cfd`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/30a9cfd)).
 
 ## Before you ship
 
