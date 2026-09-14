@@ -2,7 +2,7 @@
 title: Dr. Ingrid Halvorsen
 description:
   Senior lecturer specialising in queueing culture and the ethics of
-  cutting; runs the Week 9 case study and co-supervises the Midpoint Crit.
+  cutting; runs the Week 7 case study and returns for Week 9's synthesis.
 affiliation: Slop University Department of Applied Incivility
 role: senior lecturer
 email: i.halvorsen@slop.university
@@ -29,5 +29,10 @@ all. She maintains an informal taxonomy of cutting behaviour running from
 "excuse me, is this the line" to simply pushing up to the register, and
 considers the second category far more common than anyone waiting at the
 counter would like to admit.
+
+She also co-teaches Week 9, where the department turns its own method back
+on cases it already built — the elevator, seat-saving, transit space — to
+check whether "isolate the act, name the contest, state the verdict"
+actually holds up once you already know the answer.
 
 Photo: Max Fischer / Pexels

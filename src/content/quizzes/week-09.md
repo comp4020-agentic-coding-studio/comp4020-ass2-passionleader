@@ -1,32 +1,40 @@
 ---
 title: "Week 9 Quiz"
-description: Checking whether this week's queueing-as-unenforced-norm reading landed.
+description: Checking whether this week's method-generalisation reading landed.
 week: 9
 related:
   - lectures/week-09
   - tutorials/week-09
 questions:
-  - question: "Structurally, what does the lecture say a queue actually is?"
+  - question: "This week doesn't introduce a new physical space. What does it do instead?"
     options:
-      - "Nothing but an agreement among strangers about whose turn it is, enforced by mutual glaring"
-      - "A legal contract enforced by venue staff"
-      - "A physical barrier like a rope or turnstile"
-      - "A numbered-ticket system used at every counter"
+      - "Re-applies the course's method to three cases already built earlier in the course"
+      - "Introduces a fourth new common-manners case"
+      - "Retires the Bad manner / Good manner framework"
+      - "Focuses entirely on legal enforcement of etiquette"
     correctIndex: 0
-  - question: "Where does the lecture say a queue's implicit agreement is weakest?"
+  - question: "What two questions does this week ask of each revisited case?"
     options:
-      - "An ambiguous cluster near a counter, or a queue that forked and never re-merged cleanly"
-      - "A single-file line with a clear front"
-      - "Any queue longer than ten people"
-      - "Queues that use numbered tickets"
+      - "What makes the act deniable or contestable, and what the Good manner version actually costs"
+      - "Who is legally liable, and what the penalty should be"
+      - "How often the act occurs, and where"
+      - "Whether the act is illegal, and whether it is enforced"
     correctIndex: 0
-  - question: "In this week's Bad manner / Good manner pair, what does the good-manner customer do before stepping up to the counter?"
+  - question: "Across the three revisited cases (elevator, seat-saving, transit space), what does the Good manner version consistently share?"
     options:
-      - "Checks who else is waiting and asks \"who's next?\""
-      - "Waits for a staff member to call a number"
-      - "Lets everyone else go first, regardless of arrival order"
-      - "Takes a numbered ticket from a dispenser"
+      - "It costs less than the harm the Bad manner version imposes on someone else"
+      - "It always requires a formal apology"
+      - "It always involves reporting the incident to staff"
+      - "It eliminates the norm entirely"
+    correctIndex: 0
+  - question: "Why does the lecture say re-testing a method on cases you already understand is still meaningful?"
+    options:
+      - "A method that only works on the case it was built for hasn't actually been tested"
+      - "Because those cases are the hardest in the whole course"
+      - "Because the earlier weeks' verdicts were wrong"
+      - "It isn't meaningful — it's just a review for its own sake"
     correctIndex: 0
 ---
 
-Three questions on why a queue holds even though nothing physically enforces it.
+Four questions on this week's synthesis of the elevator, seat-saving, and
+transit-space cases.

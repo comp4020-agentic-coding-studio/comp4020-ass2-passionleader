@@ -141,7 +141,7 @@ different ones.
     stands directly behind you in an otherwise empty queue for a self-serve
     kiosk, closer than the line's usual spacing. Apply observe/isolate/
     describe to this novel scenario.
-26. (MC) What is threshold litter (week 7)? A. Litter thrown over a fence
+26. (MC) What is threshold litter (week 2)? A. Litter thrown over a fence
     B. What accumulates in the last few metres before a bin C. Litter from
     overflowing bins only D. Litter that biodegrades quickly
 27. (MC) The course's method step "describe" specifically asks you to

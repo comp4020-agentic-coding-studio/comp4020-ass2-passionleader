@@ -21,8 +21,11 @@ Practicum, which means he has personally watched several hundred students
 attempt to cut a queue with a straight face and fail. He keeps a running,
 unofficial ranking.
 
-His own research is on the sudden pedestrian stop (week 8) — specifically,
+His own research spans the sudden pedestrian stop (week 8) — specifically,
 how far behind the stopper the resulting pile-up extends as a function of
-footpath width, which he will discuss at length if asked.
+footpath width — and, earlier in his career, the audience-less nuisance:
+violations like littering that carry almost no witness at the moment they
+happen, which is where his 2019 paper feeds into Week 2's threshold-litter
+case. He will discuss either at length if asked.
 
 Photo: Yan Krukau / Pexels
