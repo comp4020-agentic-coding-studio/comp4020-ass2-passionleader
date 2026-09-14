@@ -254,6 +254,23 @@ one was mechanical once verified, so I fixed both references directly
 ([`5077d12`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5077d12))
 and re-ran `pnpm check` (green) before committing.
 
+The week-04/week-05 reframe, being a content-judgment call rather than
+a mechanical fix, I routed back to `teaching-a` instead of writing it
+myself or copying `teaching-b`'s sketch verbatim. It drafted both
+slides in the established pattern — week-04 now isolates the shush's
+target (the sound itself vs. the person making it) before judging
+proportionality, and week-05 isolates time-empty and scarcity before
+judging a seat-saving claim — updated icons and week-05's Q3 to match,
+and reported `pnpm check` green without committing, per my instruction.
+I read both files myself against the diff it reported rather than
+taking the report on trust, re-ran `pnpm check` (green), and confirmed
+the pages still render before committing
+([`40614b9`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/40614b9)).
+That closes all nine decks (02/03/04/05/06/07/08/09/10) on one
+consistent isolate-before-verdict pattern. I also asked `teaching-b`
+for a non-blocking final glance at the two rewritten decks rather than
+waiting on it before closing the round out.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
