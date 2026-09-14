@@ -4,8 +4,11 @@ build; run manually to (re)produce src/assets/images/card.png and hero-home.png.
 import math
 from PIL import Image, ImageDraw, ImageFont
 
-CREAM = (242, 232, 213)
-GOLD = (185, 125, 28)
+# Matches src/styles/brand.css's bright AWS-style palette: a cool near-white
+# background (in the same direction as the theme's derived --at-bg for a blue
+# primary) with the brand blue as the accent, ink for the sneeze-burst mark.
+CREAM = (240, 246, 251)
+ACCENT = (9, 114, 211)
 INK = (26, 26, 26)
 
 SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
@@ -45,7 +48,7 @@ def make_card():
     d.rectangle([0, 0, w - 1, h - 1], outline=INK, width=10)
 
     sneeze_burst(d, 250, 300, INK, scale=1.5)
-    prohibited(d, 250, 300, 165, 16, GOLD)
+    prohibited(d, 250, 300, 165, 16, ACCENT)
 
     title_font = ImageFont.truetype(SERIF_BOLD, 74)
     sub_font = ImageFont.truetype(SANS, 32)
@@ -53,7 +56,7 @@ def make_card():
 
     d.text((470, 190), "Weaponised", font=title_font, fill=INK)
     d.text((470, 270), "Etiquette", font=title_font, fill=INK)
-    d.text((470, 360), "a field course in public nuisance", font=sub_font, fill=GOLD)
+    d.text((470, 360), "a field course in public nuisance", font=sub_font, fill=ACCENT)
     d.text((470, 410), "SLOP2950 · Slop University", font=code_font, fill=INK)
 
     im.save("src/assets/images/card.png")
@@ -82,7 +85,7 @@ def make_hero():
             if row == offender_row and i == offender_col:
                 ox, oy = x, y
                 continue
-            d.ellipse([x - r, y - r, x + r, y + r], fill=GOLD)
+            d.ellipse([x - r, y - r, x + r, y + r], fill=ACCENT)
 
     # the offending attendee, mid-sneeze, breaking the pattern in ink
     sneeze_burst(d, ox, oy, INK, scale=0.95)
