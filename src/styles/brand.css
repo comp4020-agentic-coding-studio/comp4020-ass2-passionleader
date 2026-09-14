@@ -17,3 +17,37 @@
      way across. Offset by that so the content rule bisects the crest. */
   --at-logo-offset-x: -5.9%;
 }
+
+/* Button interaction polish: hover lift + shadow, and a visible focus ring.
+ * Targets .at-button (the theme's own button component, not yet used by any
+ * page) and plain <button> (the quiz's "Check answer" button, currently the
+ * only button on the site) so the polish isn't tied to a class nothing uses
+ * yet. :not(:active) keeps .at-button's own pressed-state scale (defined by
+ * the theme) from being fought over by the hover lift when both match at
+ * once. */
+.at-button {
+  transition:
+    background-color 0.15s,
+    border-color 0.15s,
+    color 0.15s,
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+button:not(.at-button) {
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+.at-button:hover:not(:active),
+button:hover:not(:active) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px color-mix(in srgb, var(--at-primary) 35%, transparent);
+}
+
+.at-button:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--at-primary);
+  outline-offset: 2px;
+}
