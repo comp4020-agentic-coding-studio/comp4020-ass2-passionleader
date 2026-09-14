@@ -73,6 +73,22 @@ against the built course API to close that gap. I also ran the site under
 and read the generated hero image back to confirm it actually renders the way
 I intended before pushing.
 
+## Review pass
+
+After the initial build shipped to `main`, I set up a small role-scoped
+review harness on a separate branch: `design-assets`, `ux`, and `qa`
+subagents run a read-mostly scan first, and a `teaching-a`/`teaching-b`
+proposer/critic pair is held for a later content-focused round — with a
+human supervisor session triaging findings and relaying between agents
+rather than letting them merge unsupervised. This repo's own `.gitignore`
+treats `.claude/` as machine-local (it can hold a course API key, and the
+repo goes public), so I kept the actual subagent prompts untracked and
+documented the roles, effort levels, and rules instead in `AGENTS.md`
+([`6eb0523`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/6eb0523ad87a3e18e15d2389581510bd08822e70)),
+so the harness stays evidence-backed without fighting the template's own
+tracked-vs-local convention. This round's work happens on `team-workflow`
+and lands via PR rather than direct commits to `main`.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
