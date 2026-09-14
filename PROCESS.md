@@ -127,6 +127,18 @@ report — the local dev server (`pnpm dev`, serving under
 `/comp4020-ass2-passionleader/` per `pages-base.ts`) is used for that until
 something's actually merged and deployed.
 
+The user then asked me to audit `PROCESS.md`, `plan.md`, `CLAUDE.md`, and
+`AGENTS.md` for stale or useless content given how much has changed since
+the initial build. `plan.md` needs no further change — its job is to hold
+the initial planning content, which it does. `AGENTS.md` was updated to
+name the actual mechanism (independent Claude Code CLI sessions coordinated
+by cross-session messaging, since the Agent tool's custom subagent types
+weren't usable here) and to note that the supervisor's manual visual QA
+covers a real gap in `qa`'s text/build-only checks. `CLAUDE.md` gained a
+line under "Before considering a slice done" clarifying that "look at the
+page" means reading the rendered output, not just a 200 status, citing the
+lecture-title bug as the example.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations

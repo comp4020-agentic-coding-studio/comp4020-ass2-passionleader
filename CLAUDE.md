@@ -41,3 +41,8 @@ touches the Practicum should respect that boundary rather than widen it.
 - Load `pnpm dev` and actually look at the page a change touches before
   calling it done — a passing build doesn't confirm the content reads
   correctly or that a link resolves to the right place.
+- "Look at the page" means actually reading the rendered output, not just
+  confirming the dev server returns 200 — a duplicated "Week N:" title sat
+  on all 12 lecture pages, undetected by every build/typecheck/test run,
+  until a full-site screenshot pass actually looked at the `<h1>`. Schema
+  and link checks don't substitute for this.
