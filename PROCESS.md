@@ -139,6 +139,87 @@ line under "Before considering a slice done" clarifying that "look at the
 page" means reading the rendered output, not just a 200 status, citing the
 lecture-title bug as the example.
 
+## A larger content and identity pass
+
+The user then asked for a much bigger round: a bright/light colour palette
+styled after AWS's own training pages, a navigation structure resembling
+ANU COMP2300's, a larger and more diverse teaching team with fake-but-
+plausible research bios, three or more teachers listed against every lecture
+week, a full slide deck for every week (not just Week 1) with references and
+a recurring "wrong behaviour vs right behaviour" paired example per week, and
+a complete replacement of the three assessments with exactly Assignment 1,
+Assignment 2, and a Final Exam (40 practice questions plus a description of
+the real exam). The user also explicitly reminded me not to forget to
+delegate this across the review-harness sessions rather than do it all
+myself, so this round is the harness actually earning its keep: `design-assets`
+took the palette (a new `src/styles/brand.css` swapped in for the vendored
+gold brand file, plus `colorScheme: "light"` in `site-config.ts`) and the
+deck icon assets, `ux` took the navigation restructure (`Resources` and
+`Help` added to `site-config.ts`'s nav, a new `/resources/` page), and
+`teaching-a` took the bulk content work (new people, per-week teacher lists,
+the weeks 2–12 decks, the three new assessment files) with `teaching-b` held
+for a critique pass once drafts land and `qa` standing by for `pnpm check`.
+
+Mid-round, `qa` and I independently caught the same build break: `teaching-a`'s
+decks referenced icon SVGs that didn't exist yet under a
+`src/assets/icons/` that was never created. Rather than block on custom art,
+I had `teaching-a` switch to the Iconoir icon set `design-assets` had already
+confirmed renders correctly inside a `.deck.mdx` (via the theme's `Icon`
+component) — a lower-risk substitute than hand-drawn art for a first pass,
+with custom illustration only where no reasonable icon exists.
+
+Once drafts landed, I ran the `teaching-a`/`teaching-b` debate I'd deferred:
+`teaching-b` reviewed all 12 decks and the new assessments, and I verified
+each finding against the live files myself before acting on any of them
+rather than trusting the report. Two were small enough to fix directly —
+`assignment-1.md`/`assignment-2.md`'s due dates had drifted onto the
+*following* lecture week's date instead of their own, and `resources/index.mdx`
+flatly contradicted Assignment 1's literature-citation requirement ("that's
+the whole citation") — and two were substantive content judgement calls I
+routed back to `teaching-a`: nine citation year-collisions across the deck
+set (same fake author cited with the same year in different decks), and
+weeks 2/3/6/7/8/9/10's wrong/right pairs reading as literal politeness advice
+("hold the door", "carry the wrapper to the bin"), which contradicts
+Week 1's own "not a course about manners" framing and `CLAUDE.md`'s
+analytical-tone rule. `teaching-a`'s fix reframed each pair around sloppy vs.
+precise application of the observe/isolate/describe method itself; I
+re-verified the citation fix with `grep -hoE '^- [A-Za-z-]+, [A-Z]\. \([0-9]{4}\)'
+src/decks/*.deck.mdx | sort | uniq -c` showing zero remaining duplicates
+([`85b99c2`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/85b99c2)).
+
+Visual QA on this round hit a bug class I hadn't seen before: a screenshot of
+Week 5's lecture page showed only one of its three listed teachers. The
+frontmatter and `TeachingTeam.astro`'s `getEntries()` call were both correct
+— the actual cause was that `astro dev` had been running since before the
+six new `people/` entries were added, so its content-collection cache never
+picked them up. Restarting the dev server (not editing any code) fixed it,
+confirmed by re-fetching the raw HTML and re-screenshotting
+([`c92ec70`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/c92ec70)).
+A repo-wide grep for the deleted assessment names, prompted by that same
+QA pass catching a stale "case study" mention in `resources/index.mdx`'s own
+frontmatter description, turned up two more leftovers entirely outside
+`teaching-a`'s `src/content/**`/`src/decks/**` scope: `policies/index.mdx`
+still called Week 11 the "Practicum Demonstration" and named "the Final
+Report" in the late-penalty sentence, and the homepage's "What you will do"
+paragraph still described "a Case Study" at the wrong week and a Week 12
+"analytical report" that no longer exists. Fixed directly, along with the
+same stale term in `CLAUDE.md` itself
+([`8896bb2`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/8896bb2)).
+`qa` re-ran its full independent check afterwards and confirmed everything
+green, including a fresh repo-wide grep for the old assessment names.
+
+The brand/nav work landed as its own commit
+([`5831363`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5831363)),
+and the teaching-team overhaul as another
+([`c92ec70`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/c92ec70)).
+One open item I traced rather than changed: the nav's gold shield logo
+turns out to come from `astro-theme-slop`'s `slopBranding`, spread into
+`siteConfig` — that's the fictional university's own institutional
+crest, kept separate on purpose from the course's own new blue accent
+colour (which lives entirely in `src/styles/brand.css`). I read this as
+intentional (a university crest doesn't change per-course) rather than
+a leftover, but flagged it rather than deciding it silently.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
