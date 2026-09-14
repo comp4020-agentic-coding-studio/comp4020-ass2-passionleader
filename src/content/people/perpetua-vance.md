@@ -6,10 +6,10 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: convenor
 email: p.vance@slop.university
-photo: ../../assets/images/people/perpetua-vance.png
+photo: ../../assets/images/people/perpetua-vance.jpg
 photoAlt:
-  Flat-vector avatar — a dark silhouette with a bun, badged with a small
-  star — the founding convenor's mark of office, more or less.
+  A woman in a dark blazer stands with arms folded in front of a blackboard
+  covered in equations, a serious, appraising expression on her face.
 contact:
   Email for anything about the course's shape or its marking; bring
   week-to-week questions to a Drop-in Session instead.
@@ -28,3 +28,5 @@ that she now only trots out to make the newer staff wince.
 
 Consultation hours are posted on the [Drop-in Sessions](/sessions/) page each
 teaching period; email gets a reply inside two working days.
+
+Photo: Vitaly Gariev / Pexels
