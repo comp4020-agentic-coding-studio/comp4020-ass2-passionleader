@@ -487,6 +487,36 @@ the full heading, both verdict paragraphs, and both images side by side with
 headroom to spare
 ([`5d7e6ac`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5d7e6ac)).
 
+Two smaller passes closed out before the tutorial/quiz gap below. First, a
+terminology sweep: "Field Exercise(s)" was a leftover name for the session
+type `site-config.ts` already calls "Drop-in Session(s)" everywhere else.
+teaching-a replaced every reference across bios, sessions, lectures, decks,
+and the policies page, including the Vance citation title and week-11's quiz;
+the same rename in `CLAUDE.md`'s own description of the Practicum boundary
+was flagged back to me rather than made unilaterally, since that file sits
+outside teaching-a's edit scope, and I applied it myself since it's the same
+phrase for the same concept. Alongside the rename, five bios (amara-chukwu,
+emeka-osei, ingrid-halvorsen, lachlan-reeve, wei-lin-chow) were reworded to
+name their case-study space plainly, matching the space-restructure plan's
+Task 2 — the other three already named their space and needed no change. I
+reviewed every diff directly rather than trusting the report, confirmed the
+terminology-sweep lines touched only that one phrase, and `pnpm check` came
+back green before committing
+([`f40f8d7`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/f40f8d7)).
+
+Second, four more decks converted to the Bad-manner/good-manner template:
+weeks 2, 6, 7, and 9, replacing the same "isolate the variable" abstraction
+week-03 had already moved away from. Week 5's own rewrite was drafted at the
+same time but held back here — its two existing photos (a classroom desk, a
+packed auditorium) didn't match the new café scenario the text now
+described, a mismatch caught by screenshot rather than assumed away, and it
+needed a real photo swap from design-assets before it could ship (which
+later landed, see below). The other four were verified with headless-Chrome
+screenshots against the live preview, each showing the heading, both verdict
+paragraphs, and both photos correctly matching their unchanged space, before
+committing
+([`3abaad8`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/3abaad8)).
+
 ## Filling in tutorials and quizzes, then verifying the space-restructure batch
 
 Two weeks' work had stalled: the per-week Tutorial and Quiz collections had
