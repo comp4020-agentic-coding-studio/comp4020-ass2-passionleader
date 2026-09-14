@@ -13,7 +13,7 @@ photoAlt:
   Flat-vector avatar — a bald dark silhouette, badged with a small
   sneeze-burst icon.
 contact:
-  Reachable during any Field Exercise; email otherwise.
+  Reachable during any Drop-in Session; email otherwise.
 ---
 
 Dr. Chow took a BSc in Psychology at the National University of Singapore
@@ -23,7 +23,7 @@ taxonomy."
 
 Her work reads involuntary noise the way other fields read speech: as a
 signal with timing, target, and aftermath, all of which change the instant a
-room decides a particular sound wasn't an accident. She is cross-appointed
-with the Centre for Ambient Ethics, alongside Dr. Tanaka, and the two of them
-disagree cheerfully about whether a library or a train carriage is the
-harder room to read.
+lecture theatre decides a particular cough wasn't an accident. She is
+cross-appointed with the Centre for Ambient Ethics, alongside Dr. Tanaka, and
+the two of them disagree cheerfully about whether a classroom or a library is
+the harder room to read.

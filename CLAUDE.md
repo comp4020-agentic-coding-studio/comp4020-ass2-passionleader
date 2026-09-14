@@ -13,7 +13,7 @@ descriptive/cataloguing voice. Never write content that reads as genuine
 advice to cause real harm (deliberately spreading illness, endangering
 someone, deceiving them about safety). The Live Practicum is the one
 place the course asks students to act rather than observe, and it is scoped
-narrowly (a supervised Field Exercise, a consenting cohort) — see
+narrowly (a supervised Drop-in Session, a consenting cohort) — see
 `src/pages/policies/index.mdx` for the exact boundary. Any new content that
 touches the Practicum should respect that boundary rather than widen it.
 

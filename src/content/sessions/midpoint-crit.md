@@ -12,7 +12,7 @@ related:
   - lectures/week-06
 ---
 
-Halfway through the case-study run, this Field Exercise is a group critique
+Halfway through the case-study run, this Drop-in Session is a group critique
 rather than a new topic. Bring the case studies you've built from Weeks 2
 through 5 (coughs, elevators, libraries, cafés) and present the strongest one
 in five minutes: the norm, the isolated act that broke it, and what you

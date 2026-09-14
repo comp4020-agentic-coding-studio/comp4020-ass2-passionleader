@@ -11,7 +11,7 @@ related:
   - lectures/week-01
 ---
 
-The first Field Exercise takes the method from the Week 1 lecture —
+The first Drop-in Session takes the method from the Week 1 lecture —
 observe the norm, isolate the smallest deliberate act that breaks it,
 describe precisely what happens next — and runs it once on a norm nobody in
 the room has any stake in: how people queue for the room's own coffee

@@ -12,7 +12,7 @@ photoAlt:
   star — the founding convenor's mark of office, more or less.
 contact:
   Email for anything about the course's shape or its marking; bring
-  week-to-week questions to a Field Exercise instead.
+  week-to-week questions to a Drop-in Session instead.
 ---
 
 Dr. Vance spent eleven years studying crowd behaviour before concluding that
@@ -26,5 +26,5 @@ she used to describe it as "running a department of one and a half people" —
 a line that stopped being accurate somewhere around hire number four, and
 that she now only trots out to make the newer staff wince.
 
-Consultation hours are posted on the [Field Exercises](/sessions/) page each
+Consultation hours are posted on the [Drop-in Sessions](/sessions/) page each
 teaching period; email gets a reply inside two working days.

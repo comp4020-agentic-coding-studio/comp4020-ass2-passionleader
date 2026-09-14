@@ -11,7 +11,7 @@ photoAlt:
   Flat-vector avatar — a dark silhouette with curly hair, badged with a
   small transit-seat icon.
 contact:
-  Ask during a Field Exercise first; email is for anything that can't wait
+  Ask during a Drop-in Session first; email is for anything that can't wait
   until the next one.
 ---
 
@@ -21,7 +21,8 @@ etiquette norms actually formed — which turns out to owe less to politeness
 campaigns than to whichever informal rule survived the most crowded peak
 hour.
 
-He runs the Week 6 case study on claimed-versus-needed space on public
-transport, and moonlights as the department's informal historian, which is
+He runs the Week 6 case study on claimed-versus-needed space on a crowded
+bus or subway carriage, and moonlights as the department's informal
+historian, which is
 mostly an excuse to open the Week 1 lecture with whichever archival
 etiquette-manual excerpt he found most recently.

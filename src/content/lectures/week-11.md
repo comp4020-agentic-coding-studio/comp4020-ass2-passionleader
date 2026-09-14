@@ -16,7 +16,7 @@ slides: /decks/week-11/
 
 Every prior week studied a violation someone else committed. This week asks
 you to commit one yourself — deliberately, visibly, and exaggerated well past
-the point of plausible accident — in a supervised Field Exercise where the
+the point of plausible accident — in a supervised Drop-in Session where the
 "public" is your own cohort and the stakes are a mark, not a stranger's day.
 
 The exaggeration matters. A convincing, undetectable violation teaches you
@@ -34,4 +34,4 @@ afterward about what it revealed.
 - the Practicum isn't separately marked, but the debrief you give afterward
   is exactly the kind of first-hand evidence Assignment 2 and the Final Exam
   expect you to be able to produce — see the
-  [Field Exercise](/sessions/live-practicum/) page for logistics
+  [Drop-in Session](/sessions/live-practicum/) page for logistics

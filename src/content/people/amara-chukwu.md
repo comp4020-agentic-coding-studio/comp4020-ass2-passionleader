@@ -11,17 +11,17 @@ photoAlt:
   Flat-vector avatar — a dark silhouette with an afro, badged with a
   prohibited sign over a dropped wrapper.
 contact:
-  Office hours posted on the Field Exercises page; email for anything that
+  Office hours posted on the Drop-in Sessions page; email for anything that
   can't wait.
 ---
 
 Dr. Chukwu completed both her undergraduate degree and her PhD in
 Environmental Sociology at the University of Lagos, then held a postdoctoral
 fellowship at Seoul National University surveying exactly where litter
-accumulates relative to the nearest bin.
+accumulates on a footpath relative to the nearest bin.
 
-Her threshold-litter surveys — measuring what piles up in the last few
-metres before a bin, and what doesn't — are the closest thing this
+Her threshold-litter surveys — measuring what piles up on the footpath in
+the last few metres before a bin, and what doesn't — are the closest thing this
 department has to a genuinely quantitative case study, and she is quick to
 point out that it's also the one norm in the course that almost nobody
 enforces in real time.

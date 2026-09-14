@@ -27,7 +27,7 @@ transport keeps recalculating it stop by stop — claimed space here is a
 moving target, not a settled one.
 
 We use this week to also take stock of the course so far — the Midpoint Crit,
-in the Field Exercise session, is where you bring your first four case
+in the Drop-in Session, is where you bring your first four case
 studies' worth of method and have it stress-tested in front of the room
 before you commit to the back half of the course.
 
@@ -38,5 +38,5 @@ before you commit to the back half of the course.
 - the bag-on-the-seat as the transit system's version of seat-saving (compare
   week 5)
 - volume, proximity, and the passenger who has opted out of managing either
-- Midpoint Crit this week — see the [Field Exercise](/sessions/midpoint-crit/)
+- Midpoint Crit this week — see the [Drop-in Session](/sessions/midpoint-crit/)
   page for what to bring

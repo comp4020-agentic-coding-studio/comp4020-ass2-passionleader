@@ -21,8 +21,10 @@ variance in unstructured lines — before concluding the interesting variable
 wasn't wait time but why a line with no rope and no ticket holds together at
 all.
 
-Her fieldwork catalogues where queues are structurally strong and where
-they're structurally ambiguous, and she maintains an informal taxonomy of
-cutting behaviour running from "excuse me, is this the line" to simply
-walking to the front. She considers the second category far more common than
-anyone waiting in line would like to admit.
+Her fieldwork catalogues where queues are structurally strong — a single
+file along a curb — and where they're structurally ambiguous, like a
+cluster of customers several deep at a store counter with no marked line at
+all. She maintains an informal taxonomy of cutting behaviour running from
+"excuse me, is this the line" to simply pushing up to the register, and
+considers the second category far more common than anyone waiting at the
+counter would like to admit.
