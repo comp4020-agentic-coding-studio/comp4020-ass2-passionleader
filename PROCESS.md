@@ -220,6 +220,40 @@ colour (which lives entirely in `src/styles/brand.css`). I read this as
 intentional (a university crest doesn't change per-course) rather than
 a leftover, but flagged it rather than deciding it silently.
 
+Closing this round out, I checked back in with `teaching-a` and
+`design-assets` once both went idle rather than assuming their earlier
+reports still held. Both re-verified against the actual filesystem
+(not memory) and confirmed everything was finished; `design-assets`
+also caught the same thing I did independently — `index.astro`'s
+`heroImageAlt` still described the pre-rebrand "gold dots" after
+`gen_brand_art.py` regenerated the hero art in the new blue accent
+([`5402c33`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5402c33)).
+`qa` re-ran its full check afterwards and confirmed everything still
+green, including the repo-wide grep for stale terms. I asked
+`teaching-b` for one more critique pass over the finalised decks,
+assessments, and the two pages I'd fixed outside its original scope,
+to close the debate loop rather than treating my own earlier
+reconciliation as the last word.
+
+`teaching-b`'s round-3 pass came back with two real findings, both of
+which I verified against the actual files before acting rather than
+taking the report on trust. First, `week-04.deck.mdx` and
+`week-05.deck.mdx` had been missed by the manners-drift reframing pass
+that every other week (02/03/06/07/08/09/10) went through — they still
+read as plain behavioural advice ("do this instead of that") rather
+than the isolate-before-verdict pattern the rest of the deck set
+settled on. That's a content-judgment rewrite, not a mechanical fix, so
+I routed it back to `teaching-a` to draft in its own words rather than
+writing it myself or pasting `teaching-b`'s sketch directly. Second,
+both `final-exam.md` Q36 and `week-11.deck.mdx`'s Quiz Q3 credited
+Assignment 2 with a first-hand-observed-evidence requirement that
+actually belongs to Assignment 1 — Assignment 2 is a sign-design task
+with no personal-observation component at all
+([`assignment-2.md`](src/content/assessments/assignment-2.md)). That
+one was mechanical once verified, so I fixed both references directly
+([`5077d12`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5077d12))
+and re-ran `pnpm check` (green) before committing.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
