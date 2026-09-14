@@ -6,6 +6,10 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: lecturer
 email: r.mercado@slop.university
+photo: ../../assets/images/people/rosa-mercado.png
+photoAlt:
+  Flat-vector avatar — a dark silhouette with long hair, badged with a
+  prohibited sign over a coffee cup — a claimed seat, defended.
 contact:
   Best reached after the Week 5 lecture; email otherwise, reply inside
   three working days.

@@ -6,6 +6,8 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: tutor
 email: e.osei@slop.university
+photo: ../../assets/images/people/emeka-osei.png
+photoAlt: Flat-vector avatar — a dark silhouette with short hair, badged with a clipboard icon.
 contact:
   Ask during a Field Exercise first; email is for anything that can't wait
   until the next one.

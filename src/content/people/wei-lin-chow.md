@@ -8,6 +8,10 @@ affiliation:
   Centre for Ambient Ethics
 role: teaching fellow
 email: w.chow@slop.university
+photo: ../../assets/images/people/wei-lin-chow.png
+photoAlt:
+  Flat-vector avatar — a bald dark silhouette, badged with a small
+  sneeze-burst icon.
 contact:
   Reachable during any Field Exercise; email otherwise.
 ---

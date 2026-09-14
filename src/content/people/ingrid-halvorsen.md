@@ -6,6 +6,10 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: senior lecturer
 email: i.halvorsen@slop.university
+photo: ../../assets/images/people/ingrid-halvorsen.png
+photoAlt:
+  Flat-vector avatar — a dark silhouette with a bob haircut, badged with
+  three dots in a line — a queue, with the front one peeling off.
 contact:
   Office hours by appointment; queueing-etiquette disputes take priority
   over everything else on the calendar.

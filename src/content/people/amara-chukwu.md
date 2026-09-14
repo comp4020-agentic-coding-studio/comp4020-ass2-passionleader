@@ -6,6 +6,10 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: lecturer
 email: a.chukwu@slop.university
+photo: ../../assets/images/people/amara-chukwu.png
+photoAlt:
+  Flat-vector avatar — a dark silhouette with an afro, badged with a
+  prohibited sign over a dropped wrapper.
 contact:
   Office hours posted on the Field Exercises page; email for anything that
   can't wait.

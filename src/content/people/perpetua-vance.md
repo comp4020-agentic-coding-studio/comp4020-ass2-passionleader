@@ -6,6 +6,10 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: convenor
 email: p.vance@slop.university
+photo: ../../assets/images/people/perpetua-vance.png
+photoAlt:
+  Flat-vector avatar — a dark silhouette with a bun, badged with a small
+  star — the founding convenor's mark of office, more or less.
 contact:
   Email for anything about the course's shape or its marking; bring
   week-to-week questions to a Field Exercise instead.

@@ -6,6 +6,10 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: tutor
 email: l.reeve@slop.university
+photo: ../../assets/images/people/lachlan-reeve.png
+photoAlt:
+  Flat-vector avatar — a dark silhouette with curly hair, badged with a
+  small transit-seat icon.
 contact:
   Ask during a Field Exercise first; email is for anything that can't wait
   until the next one.
