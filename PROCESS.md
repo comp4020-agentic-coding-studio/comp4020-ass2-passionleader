@@ -118,6 +118,15 @@ so all 12 lecture pages rendered the prefix twice in the browser tab and the
 `<h1>`. Fixed and re-verified with a fresh screenshot
 ([`0208664`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/0208664131d233404f3a491e5bd930b1cc28e60e)).
 
+Pushed `team-workflow` to `origin` at this point (no PR yet, and still no
+merge to `main`). The user also asked for three standing process changes
+going forward: push regularly instead of only committing locally, log every
+request of theirs here briefly as it happens rather than in a batch, and
+point them at a page they can inspect themselves rather than only a written
+report — the local dev server (`pnpm dev`, serving under
+`/comp4020-ass2-passionleader/` per `pages-base.ts`) is used for that until
+something's actually merged and deployed.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
