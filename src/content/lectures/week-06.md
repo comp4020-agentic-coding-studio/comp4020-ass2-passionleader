@@ -14,8 +14,8 @@ related:
 slides: /decks/week-06/
 ---
 
-Public transport puts strangers closer together, for longer, than almost any
-other shared space — and gives them almost no tools for negotiating it beyond
+The subway carriage or the evening bus puts strangers closer together, for
+longer, than almost any other shared space — and gives them almost no tools for negotiating it beyond
 posture. This week catalogues the standard moves: the bag on the empty seat,
 the manspread, the pole grip that claims more radius than balance requires,
 the headphone volume pitched to be heard rather than merely audible. None of

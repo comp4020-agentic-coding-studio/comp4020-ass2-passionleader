@@ -1,17 +1,17 @@
 ---
 title: "Week 2 Quiz"
-description: Checking whether this week's cough-as-signal framework landed.
+description: Checking whether this week's two deniable/incidental-conduct cases landed.
 week: 2
 related:
   - lectures/week-02
   - tutorials/week-02
 questions:
-  - question: "What changes the moment a room decides a cough was \"on purpose\"?"
+  - question: "What three properties do the deniable cough and threshold litter share, in this week's framing?"
     options:
-      - "Sympathy becomes suspicion, and an apology becomes mandatory"
-      - "The cougher becomes legally liable"
-      - "Nothing changes; a cough is a cough either way"
-      - "The room stops enforcing the norm entirely"
+      - "Deniability, delayed cost, and no audience at the moment it matters"
+      - "They are both illegal in most jurisdictions"
+      - "They both require intent to be punishable"
+      - "They only occur in a classroom"
     correctIndex: 0
   - question: "Which three signals does the lecture say a room actually reads when judging a cough?"
     options:
@@ -20,13 +20,21 @@ questions:
       - "Age, gender, seating position"
       - "Duration, pitch, echo"
     correctIndex: 0
-  - question: "In this week's Bad manner / Good manner pair, what makes the good-manner version better?"
+  - question: "Why does the lecture call littering an \"audience-less nuisance\"?"
     options:
-      - "It states the same complaint directly instead of performing it deniably"
-      - "It avoids making any complaint at all"
-      - "It is quieter than the cough it responds to"
-      - "It happens after class instead of during it"
+      - "The person who benefits from the act is rarely watched doing it"
+      - "It is the only case study that is illegal"
+      - "It never carries any social cost"
+      - "It always happens indoors"
+    correctIndex: 0
+  - question: "In this week's Bad manner / Good manner pairs, what does the good-manner version actually cost the person doing it?"
+    options:
+      - "Very little — a quiet sentence or a few extra steps, smaller than the effort just avoided"
+      - "A formal apology to everyone nearby"
+      - "A fine or other legal penalty"
+      - "Nothing changes between the two versions"
     correctIndex: 0
 ---
 
-Three questions on how a room reads a cough as accidental or performed.
+Four questions across this week's two cases: the deniable cough and
+threshold litter.

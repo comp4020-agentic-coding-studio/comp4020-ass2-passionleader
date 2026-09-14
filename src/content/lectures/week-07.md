@@ -1,39 +1,49 @@
 ---
-title: "Week 7: Littering as Micro-Aggression"
+title: "Week 7: Common Manners II — Queueing and Turn-Taking"
 description:
-  A dropped wrapper costs the dropper nothing and someone else something —
-  this week prices out exactly who pays, and how much.
+  A queue is a norm with no physical enforcement at all — this week asks
+  why it holds anyway, and exactly how it fails, wherever a line of
+  strangers forms.
 week: 7
 date: 2027-09-06
 teachers:
-  - amara-chukwu
-  - emeka-osei
   - ingrid-halvorsen
+  - perpetua-vance
+  - amara-chukwu
+related:
+  - assessments/assignment-2
 slides: /decks/week-07/
 ---
 
-Littering is unusual among this course's case studies because it has almost
-no immediate audience — the person who benefits from not carrying a wrapper
-to a bin is rarely watched doing it, and the person who eventually pays (a
-council worker, a passer-by, whoever's shoe finds it first) is rarely the
-person who saw it happen. That gap between act and consequence is what makes
-it a useful case: most of this course's etiquette is enforced by an audience
-in real time, and littering mostly isn't.
+This is the second of the course's "common manners" weeks — queueing isn't
+tied to any one physical space either. The same pattern shows up at a store
+counter, a bus stop, a food stall, or wherever else a line of strangers has
+to agree, without ever discussing it, on whose turn it is.
 
-This week asks what happens to a norm when you remove the audience. We look
-at where litter actually accumulates (thresholds — the last three metres
-before a bin, the base of a sign) as a kind of survey of exactly how much
-inconvenience people will tolerate before they stop carrying something. Without an audience to react to it,
-isolating the act means reading the aftermath instead of watching the
-moment — a different way of applying the same method.
+A queue is, structurally, nothing: no rope, no numbered ticket in most
+cases, just an agreement among strangers about whose turn it is. That it
+holds at all — that dozens of people will stand in a line enforced by
+nothing but mutual glaring — is this course's cleanest example of a norm
+doing the work of a rule.
+
+This week studies where that agreement is strongest (a single-file line
+with a clear front) and where it's weakest (an ambiguous cluster near a
+counter, a queue that forked around an obstacle and never re-merged
+cleanly). We treat "cutting" as a spectrum: the person who asks first, the
+person who exploits an ambiguous merge, and the person who simply walks to
+the front, each of whom is met with a different intensity of social
+response. Isolating that spectrum — deniable to blatant — is this week's
+case of the method the course opened with: find the smallest act that
+still counts as a violation.
 
 ## Outline
 
-- the audience-less nuisance, and why it behaves differently from the rest
-  of the course
-- threshold litter: what accumulates just short of a bin, and what that
-  distance tells you
-- who actually pays, and when (if ever) that cost returns to the person who
-  dropped it
-- discussion: does removing the audience change the ethics, or only the
-  enforcement
+- the queue as an unenforced norm, and why it holds anywhere strangers form
+  a line
+- where queues are structurally strong versus structurally ambiguous
+- a spectrum of cutting, from "excuse me, is this the line" to walking
+  straight to the front
+- case study: an unmarked store counter, as one instance of a pattern that
+  isn't specific to any single venue
+- your Assignment 2 is due this week — see the
+  [assessment page](/assessments/assignment-2/) for what it's marked against
