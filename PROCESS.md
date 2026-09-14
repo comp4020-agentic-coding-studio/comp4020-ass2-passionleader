@@ -89,6 +89,15 @@ so the harness stays evidence-backed without fighting the template's own
 tracked-vs-local convention. This round's work happens on `team-workflow`
 and lands via PR rather than direct commits to `main`.
 
+I also asked the supervisor session to review `CLAUDE.md` and `plan.md` for
+whether they still hold appropriate content. `CLAUDE.md` checked out clean.
+`plan.md` — an untracked pre-pivot draft of a comedic "생활수칙 지키기"
+premise — was stale but not wrong: rather than delete it, I had it annotated
+as the concrete artifact of the pivot this file's "How I got here" section
+already narrates, and had its now-answered "Open questions" resolved instead
+of left looking outdated
+([`bcb5f62`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/bcb5f62)).
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
