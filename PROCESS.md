@@ -449,6 +449,44 @@ headless Chrome and forcing the hover/focus states — the red-tinted
 shadow and the focus ring both render as intended
 ([`59b8935`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/59b8935)).
 
+The icon-to-photo swap's first commit ([`ae4c3b9`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/ae4c3b9)) had also introduced a
+straightforward overflow bug: nothing constrained a slide image's size, so a
+photo rendered near its native pixel dimensions and spilled off the slide,
+hiding the heading/body text around it. `design-assets` fixed the individual
+image size (`max-width: 90%; max-height: 28vh` on `.reveal img`, `vh` rather
+than a percentage since a percentage height on a descendant of the theme's
+auto-sized grid rows resolves to `auto` and is silently inert). I re-verified
+with headless-Chrome screenshots rather than trusting the report or the
+build's own `no structural violations` line, and found the individual-image
+fix wasn't the whole story: with both images correctly sized but still
+stacked full-width, the combined heading, two verdict paragraphs, and two
+28vh-tall images with captions still didn't fit the slide — the heading was
+clipped at the top and the second caption cut off at the bottom. QA
+independently confirmed the same defect with computed-style measurements
+across all nine affected decks (heading clipped 28-65px off the top, content
+overflowing the viewport by 119-161px). Worth noting: the automated
+`astromotion` structural checker that kept reporting green throughout is
+correct but incomplete by design — reading its source confirmed it only
+measures text-bearing elements for overflow and explicitly excludes images,
+so it was never going to catch either version of this bug. This is exactly
+the "a passing build doesn't confirm correctness" case this file's own
+standing rule is about.
+
+Rather than touch markdown or shrink the images further, I gave the slide's
+section two grid columns and spanned every child *except* the two
+image-bearing paragraphs back across both columns — the two photos are the
+only children left with default single-column placement, so the grid's
+normal row-filling puts them side by side in one row instead of stacked in
+two, halving their combined vertical footprint with no content changes and
+no effect on slides that carry no images. Verified with headless-Chrome
+screenshots (using reveal.js's own heading-id hash navigation, e.g.
+`#/wrong-vs-right`, rather than a numeric slide index, after an off-by-one
+across decks with differing slide counts showed the numeric approach wasn't
+reliable) across all nine affected decks, weeks 2 through 10, each showing
+the full heading, both verdict paragraphs, and both images side by side with
+headroom to spare
+([`5d7e6ac`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5d7e6ac)).
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
