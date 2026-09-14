@@ -1,14 +1,17 @@
-/* Bright/light brand palette for astro-theme-university, styled after AWS's
- * training pages: a clear saturated blue instead of the house gold, a deep
- * navy for secondary use (utility bars, hover states), and a supporting cyan
- * for tertiary/info accents. The theme derives every semantic token (bg,
- * text, links, borders …) from these three via relative colour syntax, so
- * overriding them here is enough to re-theme the whole site. Imported after
- * the theme styles via `universityTheme({ brandCss: "./src/styles/brand.css" })`. */
+/* Bright/light brand palette for astro-theme-university: a clear red as the
+ * primary accent (nav underline, links, filled buttons), a deep brick red for
+ * secondary use (utility bars, pressed states), and a lighter coral reserved
+ * for decorative/info accents only (its contrast on white is intentionally
+ * too low for text — matches the tertiary token's role under the previous
+ * blue palette). The theme derives every semantic token (bg, text, links,
+ * borders, hover/active/focus states …) from these three via relative colour
+ * syntax, so overriding them here is enough to re-theme the whole site,
+ * button interaction states included. Imported after the theme styles via
+ * `universityTheme({ brandCss: "/src/styles/brand.css" })`. */
 :root {
-  --at-primary: #0972d3;
-  --at-secondary: #033160;
-  --at-tertiary: #16bfd6;
+  --at-primary: #c0182f;
+  --at-secondary: #7a0e1f;
+  --at-tertiary: #f0555f;
 
   /* The shield crest sits at the far left of the lockup, its centre 5.9% of the
      way across. Offset by that so the content rule bisects the crest. */

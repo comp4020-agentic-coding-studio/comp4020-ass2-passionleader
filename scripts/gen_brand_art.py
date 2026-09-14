@@ -4,11 +4,11 @@ build; run manually to (re)produce src/assets/images/card.png and hero-home.png.
 import math
 from PIL import Image, ImageDraw, ImageFont
 
-# Matches src/styles/brand.css's bright AWS-style palette: a cool near-white
-# background (in the same direction as the theme's derived --at-bg for a blue
-# primary) with the brand blue as the accent, ink for the sneeze-burst mark.
-CREAM = (240, 246, 251)
-ACCENT = (9, 114, 211)
+# Matches src/styles/brand.css's bright red palette: a warm near-white
+# background (in the same direction as the theme's derived --at-bg for a red
+# primary) with the brand red as the accent, ink for the sneeze-burst mark.
+CREAM = (251, 243, 242)
+ACCENT = (192, 24, 47)
 INK = (26, 26, 26)
 
 SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
