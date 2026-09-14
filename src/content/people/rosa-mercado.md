@@ -6,10 +6,11 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: lecturer
 email: r.mercado@slop.university
-photo: ../../assets/images/people/rosa-mercado.png
+photo: ../../assets/images/people/rosa-mercado.jpg
 photoAlt:
-  Flat-vector avatar — a dark silhouette with long hair, badged with a
-  prohibited sign over a coffee cup — a claimed seat, defended.
+  A woman with shoulder-length blonde hair and dark-framed glasses stands
+  with arms crossed in front of a chalkboard covered in mathematical
+  formulas, looking directly at the camera.
 contact:
   Best reached after the Week 5 lecture; email otherwise, reply inside
   three working days.
@@ -25,3 +26,5 @@ Her research prices out exactly when a seat-saving claim holds and when it
 collapses — scarcity, visibility, and how a room decides a contested seat is
 actually empty. She is, by her own admission, incapable of walking past an
 unattended chair in a crowded café without mentally logging it as data.
+
+Photo: Vitaly Gariev / Pexels

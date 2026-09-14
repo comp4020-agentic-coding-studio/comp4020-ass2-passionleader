@@ -8,10 +8,11 @@ affiliation:
   Centre for Ambient Ethics
 role: teaching fellow
 email: w.chow@slop.university
-photo: ../../assets/images/people/wei-lin-chow.png
+photo: ../../assets/images/people/wei-lin-chow.jpg
 photoAlt:
-  Flat-vector avatar — a bald dark silhouette, badged with a small
-  sneeze-burst icon.
+  A woman with her hair pulled back wears a plaid blazer over a white
+  collared shirt, looking directly at the camera against a plain light
+  background.
 contact:
   Reachable during any Drop-in Session; email otherwise.
 ---
@@ -27,3 +28,5 @@ lecture theatre decides a particular cough wasn't an accident. She is
 cross-appointed with the Centre for Ambient Ethics, alongside Dr. Tanaka, and
 the two of them disagree cheerfully about whether a classroom or a library is
 the harder room to read.
+
+Photo: Ketut Subiyanto / Pexels
