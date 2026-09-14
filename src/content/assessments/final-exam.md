@@ -182,7 +182,7 @@ different ones.
     visible reaction — referencing the specific asymmetry the course names.
 36. (MC) Which best describes the Practicum's actual grading status this
     semester? A. It is 35% of the final mark B. It is not separately
-    marked, but its debrief habit is expected in Assignment 2 and this exam
+    marked, but its debrief habit is expected in Assignment 1 and this exam
     C. It replaces the Final Exam D. It is marked only if you fail
     Assignment 1
 37. (Short answer) A novel scenario: someone holds a lift door open for an
