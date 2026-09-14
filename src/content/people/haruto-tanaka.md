@@ -8,10 +8,11 @@ affiliation:
   Centre for Ambient Ethics
 role: senior lecturer
 email: h.tanaka@slop.university
-photo: ../../assets/images/people/haruto-tanaka.png
+photo: ../../assets/images/people/haruto-tanaka.jpg
 photoAlt:
-  Flat-vector avatar — a dark silhouette with swept-back hair, badged with a
-  small sound-wave icon.
+  A man with short dark hair and round glasses stands in front of a
+  chalkboard covered in geometry formulas, looking directly at the
+  camera.
 contact:
   Email for anything acoustic; he genuinely prefers this to a phone call.
 ---
@@ -26,3 +27,5 @@ problem — both are shared spaces that manage sound entirely through
 pretence — and is cross-appointed with Slop University's Centre for Ambient
 Ethics, where he keeps insisting the restroom paper deserves more attention
 than the library one.
+
+Photo: Yan Krukau / Pexels

@@ -6,10 +6,11 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: senior lecturer
 email: i.halvorsen@slop.university
-photo: ../../assets/images/people/ingrid-halvorsen.png
+photo: ../../assets/images/people/ingrid-halvorsen.jpg
 photoAlt:
-  Flat-vector avatar — a dark silhouette with a bob haircut, badged with
-  three dots in a line — a queue, with the front one peeling off.
+  A smiling woman with short curly hair and round glasses stands in front
+  of a chalkboard covered in geometry formulas, hands clasped in front of
+  her.
 contact:
   Office hours by appointment; queueing-etiquette disputes take priority
   over everything else on the calendar.
@@ -28,3 +29,5 @@ all. She maintains an informal taxonomy of cutting behaviour running from
 "excuse me, is this the line" to simply pushing up to the register, and
 considers the second category far more common than anyone waiting at the
 counter would like to admit.
+
+Photo: Max Fischer / Pexels

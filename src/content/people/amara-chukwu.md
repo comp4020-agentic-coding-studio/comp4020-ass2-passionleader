@@ -6,10 +6,11 @@ description:
 affiliation: Slop University Department of Applied Incivility
 role: lecturer
 email: a.chukwu@slop.university
-photo: ../../assets/images/people/amara-chukwu.png
+photo: ../../assets/images/people/amara-chukwu.jpg
 photoAlt:
-  Flat-vector avatar — a dark silhouette with an afro, badged with a
-  prohibited sign over a dropped wrapper.
+  A woman with an updo of braids stands with arms folded, chin resting on
+  one hand, wearing a houndstooth blazer over an orange top, looking
+  levelly at the camera.
 contact:
   Office hours posted on the Drop-in Sessions page; email for anything that
   can't wait.
@@ -25,3 +26,5 @@ the last few metres before a bin, and what doesn't — are the closest thing thi
 department has to a genuinely quantitative case study, and she is quick to
 point out that it's also the one norm in the course that almost nobody
 enforces in real time.
+
+Photo: Katerina Holmes / Pexels
