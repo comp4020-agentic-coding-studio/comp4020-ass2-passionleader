@@ -16,7 +16,12 @@ other shared space — and gives them almost no tools for negotiating it beyond
 posture. This week catalogues the standard moves: the bag on the empty seat,
 the manspread, the pole grip that claims more radius than balance requires,
 the headphone volume pitched to be heard rather than merely audible. None of
-them are against any rule. All of them cost someone else something.
+them are against any rule. All of them cost someone else something. Treat it
+as an unpriced commons: there's more space in a carriage than any timetable
+accounts for, and no mechanism except posture decides who gets how much of
+it. Where Week 3's elevator fixes everyone's position for the whole ride,
+transport keeps recalculating it stop by stop — claimed space here is a
+moving target, not a settled one.
 
 We use this week to also take stock of the course so far — the Midpoint Crit,
 in the Field Exercise session, is where you bring your first four case

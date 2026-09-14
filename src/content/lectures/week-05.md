@@ -19,7 +19,8 @@ We ask what breaks it. A single occupied seat in an empty café reads as
 inviolable; the same jacket in a packed café at peak hour reads very
 differently. The etiquette isn't fixed — it's a function of scarcity, and
 this week tries to describe that function properly instead of just noting
-that "it depends."
+that "it depends." Scarcity is what turns an ordinary observed claim into an
+isolated, describable violation the moment someone contests it.
 
 ## Outline
 

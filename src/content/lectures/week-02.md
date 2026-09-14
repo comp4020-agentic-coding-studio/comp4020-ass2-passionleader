@@ -16,11 +16,13 @@ contract around it changes completely — sympathy becomes suspicion, and an
 apology becomes mandatory where it wasn't before.
 
 This week catalogues the signals a room actually reads: timing (does it
-interrupt someone speaking), aim (was there a person in the blast radius),
-and aftermath (was it acknowledged). We ask what the minimum viable
-"deniable" version of a deliberate cough looks like — not as an instruction
-to go and cough on anyone, but as an analysis of why the line between
-accident and message is so easy to blur and so hard to prove.
+interrupt someone speaking), target (was the cough directed anywhere in
+particular), and aftermath (was it acknowledged). We catalogue the deniable
+coughs a room has already decided were "on purpose" anyway — not to specify
+how to make one undetectable, but to analyse why the line between accident
+and message is so easy to blur and so hard to prove. That's this week's case
+of the method: isolate the smallest deliberately-timed cough from the mass
+of involuntary ones, and describe what the room does next.
 
 ## Outline
 

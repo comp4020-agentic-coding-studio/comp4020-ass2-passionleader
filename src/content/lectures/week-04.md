@@ -20,7 +20,9 @@ with a norm ("the library is quiet") that most people enforce only by glaring.
 
 We also look at the shush itself as a countermeasure — louder, socially, than
 almost anything it's deployed against — and ask why a room will tolerate a
-five-minute phone call before anyone says a word, but not a ten-second shush.
+five-minute phone call before anyone says a word, but not a ten-second shush. The shush is this week's case of the method in
+reverse: a room isolating and naming the violation out loud, which is
+exactly what makes it feel worse than the noise it's answering.
 
 ## Outline
 

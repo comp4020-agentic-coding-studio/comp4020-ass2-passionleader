@@ -20,7 +20,9 @@ a clear front) and where it's weakest (an ambiguous cluster near a counter,
 a queue that forked around an obstacle and never re-merged cleanly). We treat
 "cutting" as a spectrum: the person who asks first, the person who exploits
 an ambiguous merge, and the person who simply walks to the front, each of
-whom is met with a different intensity of social response.
+whom is met with a different intensity of social response. Isolating that
+spectrum — deniable to blatant — is this week's case of the method the
+course opened with: find the smallest act that still counts as a violation.
 
 ## Outline
 

@@ -20,7 +20,9 @@ in real time, and littering mostly isn't.
 This week asks what happens to a norm when you remove the audience. We look
 at where litter actually accumulates (thresholds — the last three metres
 before a bin, the base of a sign) as a kind of survey of exactly how much
-inconvenience people will tolerate before they stop carrying something.
+inconvenience people will tolerate before they stop carrying something. Without an audience to react to it,
+isolating the act means reading the aftermath instead of watching the
+moment — a different way of applying the same method.
 
 ## Outline
 

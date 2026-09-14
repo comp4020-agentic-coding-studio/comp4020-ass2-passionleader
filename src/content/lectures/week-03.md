@@ -19,7 +19,9 @@ This week treats the elevator as a closed system: fixed capacity, fixed exits,
 short duration, high density. That combination is what makes its etiquette so
 rigid and so easy to disrupt with a single small deviation — holding the door
 a beat too long, standing in the wrong third of the car, or reaching past
-someone to press a floor they hadn't asked for.
+someone to press a floor they hadn't asked for. That single deviation is
+this week's isolated act — small enough to describe precisely, disruptive
+enough that the whole car reacts to it before anyone says a word.
 
 ## Outline
 

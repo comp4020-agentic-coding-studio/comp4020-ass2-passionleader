@@ -29,6 +29,6 @@ write it up.
 
 - what "etiquette" is, described as an unwritten protocol rather than a
   moral fact
-- the course's method: observe, isolate, violate on purpose, describe
+- the course's method: observe, isolate, describe
 - how the case-study weeks are structured, and what the Field Exercises are for
 - what "weaponised" means here, and what it explicitly does not mean
