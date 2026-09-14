@@ -560,6 +560,51 @@ descriptions all matched what was actually wired into the slide, so it's
 committed too
 ([`30a9cfd`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/30a9cfd)).
 
+## Looping teaching-b in for a genuine second read
+
+teaching-b's actual role — critiquing teaching-a's drafts — hadn't been
+exercised at all this round; every deck and bio change up to this point had
+gone through my own direct review only. Once qa's second gate/spot-check
+pass came back clean, I asked teaching-b to read the full committed batch
+(all eight Bad-manner/good-manner decks, the terminology sweep, and the five
+reworded bios) fresh, specifically against the calibrated-tone rule and
+schema/date/citation consistency. It came back clean on tone, but caught two
+real bugs neither I nor qa had: `week-01.deck.mdx`'s "Assessment at a
+glance" slide still listed the pre-redesign weights (three rows, 25/35/40)
+instead of the current five assessments (20/30/5/10/35), and
+`policies/index.mdx` had two "Field Exercise" mentions the terminology
+sweep missed — both split across a line wrap, the same
+newline-in-plain-text pitfall that had already tripped up one of my own
+`grep` commands earlier this segment. It also caught Emeka Osei's bio
+describing him as marking a "Practicum Demonstration," an assessment that
+was deleted when the weight structure changed — every other page agrees the
+Practicum isn't separately graded, so this was the one holdout. I verified
+each independently against the actual assessment files and the live
+Practicum-grading language elsewhere on the site before fixing and
+screenshotting all three
+([`261b37e`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/261b37e)).
+teaching-b also flagged two softer, non-blocking notes — whether "Drop-in
+Session" fits the Week 11 Live Practicum's actual booked/rehearsed
+character as well as it fits the casual weekly sessions, and whether week
+6's bus setting matches its intended space label — the second is
+intentional (the space-restructure plan groups bus and subway together
+under one Public Transport week), the first is a real tension worth a
+decision but not a bug, so both are left open rather than acted on
+unilaterally.
+
+While reviewing the working tree for that batch, five more people photos
+(amara-chukwu, emeka-osei, haruto-tanaka, ingrid-halvorsen, lachlan-reeve)
+turned up from design-assets, already swapped in from vector avatars.
+The People-index card crop looks good on all five, but a hero-page
+screenshot pass found three of five broken on the hero band specifically —
+one nearly featureless, one cropped at the eyes, one with the face pushed
+off the left edge — the same crop failure mode Perpetua Vance's photo hit
+earlier, now reproduced often enough (3 of 5 fresh attempts) to be a
+pattern in the shared hero CSS rather than a per-photo sourcing problem.
+Held back pending a crop-behaviour fix and, separately, the same
+exact-source-URL attribution check as every other photo this segment — not
+committed yet.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
