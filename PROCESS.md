@@ -423,6 +423,20 @@ back to `design-assets` with the exact CSS evidence rather than guessing
 at a fix; the avatar batch stays uncommitted until the composition (wider
 canvas, face/badge centred vertically) is corrected.
 
+`design-assets` fixed it same-round: canvas widened from a 480×480 square
+to a 1440×480 (3:1) landscape, and the badge moved from a fixed
+image-corner offset to a figure-relative offset inside the vertically
+centred safe band. Re-screenshotting both the People grid and a detail
+page confirmed the fix — badges fully visible on the grid, face and badge
+both clearly in frame on the hero — so the avatar batch, and the image
+rollout's final week (10, restroom), both shipped this round
+([`ae4c3b9`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/ae4c3b9),
+[`e13cc1c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e13cc1c)).
+That completes the icon-to-photo swap across all nine case-study weeks
+(2, 4-10; week 3 was done earlier) — the remaining piece of that same
+content is the Bad-manner/Good-manner text rewrite for the eight weeks
+still carrying the old wording, still in progress with `teaching-a`.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
