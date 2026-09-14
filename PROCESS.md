@@ -487,6 +487,47 @@ the full heading, both verdict paragraphs, and both images side by side with
 headroom to spare
 ([`5d7e6ac`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5d7e6ac)).
 
+## Filling in tutorials and quizzes, then verifying the space-restructure batch
+
+Two weeks' work had stalled: the per-week Tutorial and Quiz collections had
+never been written past their schema stubs, and a `related:`-verified but
+otherwise unreviewed batch of deck edits from the space-based restructure
+(weeks 4, 8, 10's "Bad manner vs. good manner" conversions, and design-assets'
+Phase-0 sample swapping Dr. Vance's vector avatar for a real photo) was
+sitting uncommitted in the working tree. I wrote all 24 tutorial/quiz files
+(one Activity/Reflection pair and one three-question MCQ set per week) myself
+and, after `pnpm check` came back green, screenshotted both index pages plus
+a sample Tutorial and Quiz page before committing
+([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a5)).
+
+Verifying the deck batch took longer than the content review itself. Each of
+weeks 4, 8, and 10 read correctly against the calibrated Bad-manner/good-manner
+template on inspection, but two of the three produced an apparently broken
+second image under headless-Chrome screenshot — with no defect in the built
+HTML, the image asset, or its HTTP response. The week-08 case turned out to
+be `astromotion`'s own first-run keyboard-shortcut hint card, which the
+package deliberately suppresses for `navigator.webdriver`-flagged sessions but
+which a plain `google-chrome --headless` invocation doesn't trigger; passing
+its documented `?astromotion-export` query param suppressed it cleanly. The
+week-05 case (still uncommitted, see below) turned out to be a second, unrelated
+artifact: Chrome's `--screenshot` CLI flag captures before a large `loading="lazy"`
+image finishes decoding, which a live screenshot taken over the DevTools
+protocol in the same page session does not. Both were tooling false alarms,
+not content bugs — confirmed by reading `astromotion`'s source in the first
+case and by cross-checking `getComputedStyle`/`getBoundingClientRect` against
+a same-session CDP screenshot in the second. Weeks 4, 8, and 10 are committed
+now that a clean screenshot confirms each
+([`05fefaa`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/05fefaa)).
+
+Dr. Vance's photo swap is committed alongside it
+([`f90a715`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/f90a715)):
+a free-to-use Pexels portrait, credited to the actual photographer rather than
+a placeholder, checked by fetching the source listing directly rather than
+trusting the credit as reported. Week 5's own new café photos are held back
+for the same reason — the attribution is plausible (both named photographers
+have real Pexels profiles) but not yet confirmed against the exact source
+listing, so it isn't committed until that check closes.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
