@@ -5,7 +5,7 @@ description:
   plus a short description of what the real exam will actually look like.
 week: 12
 due: 2027-10-29T12:00:00+11:00
-weight: 40
+weight: 35
 marking:
   mode: holistic
   description:

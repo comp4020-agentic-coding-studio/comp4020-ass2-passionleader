@@ -7,11 +7,18 @@ import { courseMeta } from "./course-config";
 // where a technique gets rehearsed under supervision before anyone tries it
 // on an unsuspecting public.
 export const sessionLabels = {
-  singular: "Field Exercise",
-  plural: "Field Exercises",
+  singular: "Drop-in Session",
+  plural: "Drop-in Sessions",
 } as const;
 
-export const graphCollections = ["sessions", "assessments", "lectures", "people"];
+export const graphCollections = [
+  "sessions",
+  "assessments",
+  "lectures",
+  "tutorials",
+  "quizzes",
+  "people",
+];
 
 export const courseApiCollections = [
   ...graphCollections.map((key) => ({ key })),
@@ -24,12 +31,12 @@ export const siteConfig = defineSiteConfig({
 
   links: [
     { text: "Lectures", href: "/lectures/" },
-    { text: sessionLabels.plural, href: "/sessions/" },
+    { text: "Tutorial", href: "/tutorials/" },
+    { text: "Quiz", href: "/quizzes/" },
     { text: "Assessment", href: "/assessments/" },
-    { text: "Resources", href: "/resources/" },
+    { text: sessionLabels.plural, href: "/sessions/" },
     { text: "People", href: "/people/" },
-    { text: "Policies", href: "/policies/" },
-    { text: "Help", href: "/policies/#getting-help" },
+    { text: "Resources & Policies", href: "/policies/" },
   ],
 
   licence: "CC-BY-NC-SA-4.0",

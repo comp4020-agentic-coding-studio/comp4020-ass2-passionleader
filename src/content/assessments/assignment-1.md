@@ -5,7 +5,7 @@ description:
   observed or experienced, analysed with the course's own method.
 week: 5
 due: 2027-08-27T12:00:00+10:00
-weight: 25
+weight: 20
 marking:
   mode: weighted
   criteria:

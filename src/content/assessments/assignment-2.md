@@ -5,7 +5,7 @@ description:
   nudge people who see them toward more ethical public behaviour.
 week: 9
 due: 2027-09-24T12:00:00+10:00
-weight: 35
+weight: 30
 marking:
   mode: weighted
   criteria:
