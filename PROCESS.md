@@ -437,6 +437,18 @@ That completes the icon-to-photo swap across all nine case-study weeks
 content is the Bad-manner/Good-manner text rewrite for the eight weeks
 still carrying the old wording, still in progress with `teaching-a`.
 
+`design-assets` added the last piece of the visual-overhaul batch: hover
+lift + soft shadow and a visible focus ring on buttons, targeting both
+`.at-button` (the theme's own button component) and the plain `<button>`
+the quiz uses, so the polish applies regardless of which one a given page
+ends up using. They flagged it honestly as verified by build/inspection
+only, not eyeballed in a live page, since their session has no headless
+browser and the quizzes collection was still empty. Verified it myself by
+loading the site's real compiled CSS into a standalone test page through
+headless Chrome and forcing the hover/focus states — the red-tinted
+shadow and the focus ring both render as intended
+([`59b8935`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/59b8935)).
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
