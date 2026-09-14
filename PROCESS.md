@@ -288,6 +288,73 @@ correctly. This is the kind of thing a second content reviewer catches
 that the original author and I both missed on the first pass — exactly
 why the round included a non-blocking check rather than skipping it.
 
+## Space-based restructure and visual overhaul
+
+The user raised a concrete complaint: the "Wrong vs. right" framing on
+slides like week-03's elevator case was too abstract to read as an actual
+verdict — closing a lift door on someone running for it could be read
+either way. That opened into a much larger request: restructure weeks 2-10
+around a physical space each (elevator, library, café, subway, street,
+footpath, queue, restroom), replace every slide's abstraction with a plain
+"Bad manner / Good manner" verdict in vivid third-person language (not a
+literal command, confirmed via a clarifying question), replace all deck
+icons with real, attributed, free-license photos (never Getty or other paid
+stock), shift the accent colour off blue toward red/brown/dark navy, add
+hover/press/focus polish to buttons, and update the People tab's bios to
+match the new space framing. Work is split across the five peer sessions
+rather than done solely here, per the user's standing instruction.
+
+Research first, to de-risk the plan: 6 of the 9 case-study weeks (elevator,
+library, café, transport, footpath, restroom) already anchor to a specific
+space in their existing content, so most of the "restructure by space" ask
+is a framing pass, not a content rewrite. The only technically new piece is
+image embedding: a **relative-path** Markdown image inside `src/decks/`
+auto-optimizes through Astro's own MDX image pipeline — a root-absolute
+path (`/images/...`) silently 404s under this site's subpath deployment, so
+every sourced photo has to be stored locally under `src/decks/assets/` and
+referenced relatively.
+
+Before mass-producing anything, I ran a Phase-0 spike on week-03 alone: I
+sourced two free-license Pexels photos matching the deck's own close-door/
+runner scenario, resized and stripped their EXIF, and swapped them in for
+the deck's two `<Icon>` elements, rewriting the slide as an explicit
+Bad-manner/Good-manner verdict tied to that exact scenario
+([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346)).
+One sourcing hiccup worth recording: my first "bad manner" candidate photo
+had a Pexels page credit ("MART PRODUCTION") that didn't match its own
+embedded EXIF copyright tag ("eugene barmin"). Rather than guess which was
+right, I dropped that file entirely and sourced a different, cleanly
+attributed replacement — the standing rule here is real, checkable credit
+or no image, never a best-guess attribution. `pnpm check` was green
+afterward (46 pages, 0 broken links, no accessibility violations) and I
+confirmed the rendering myself with a headless-Chrome screenshot of the
+actual slide, not just the build log.
+
+A vector-art alternative and 2-3 accent-colour swatches are next, to give
+the user an actual choice before the full weeks 2-10 rollout — delegated
+to `design-assets`, alongside `teaching-a` drafting the remaining
+Bad/Good text and the People-tab bio rewording, `teaching-b` critiquing
+those drafts for tone and consistency, `ux` checking nav/People rendering,
+and `qa` running the evidence/build/screenshot gate on each batch.
+
+Mid-pass, the user added a second, larger batch of asks: replace the
+People tab's placeholder-free bios with a generated portrait per person
+(read as procedurally-illustrated avatars in the site's own art style,
+not real photos of real people, to avoid misattributing a real person's
+face to a fictional character — a judgment call surfaced back to the
+user rather than assumed silently); restructure the top nav (drop "Help",
+add "Tutorial" and "Quiz" tabs, rename "Field Exercises" to "Drop-in
+session", merge "Resources" and "Policies" into one tab); add a
+per-week Tutorial collection of hands-on fictional activities; and add a
+per-week Quiz collection of 2-4-option multiple-choice questions. This is
+architecturally bigger (two new content collections, new page routes, a
+nav config change) than the space-restructure pass, so it gets its own
+planning round rather than being folded in ad hoc.
+
+Also logged, explicitly deferred by the user to a later round: redesign
+the Slop University logo/favicon into something deliberately silly-looking
+to match the site's satirical tone. No code touched for this yet.
+
 ## Before you ship
 
 `pnpm check:evidence` verifies that this comment is gone, that your citations
