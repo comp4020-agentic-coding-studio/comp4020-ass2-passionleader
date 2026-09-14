@@ -7,6 +7,9 @@ week: 3
 date: 2027-08-09
 teachers:
   - perpetua-vance
+  - emeka-osei
+  - ingrid-halvorsen
+slides: /decks/week-03/
 ---
 
 No public space compresses status signalling the way an elevator does. Who

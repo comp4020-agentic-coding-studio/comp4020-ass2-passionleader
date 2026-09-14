@@ -2,11 +2,16 @@
 title: "Week 9: Queueing Culture and the Ethics of Cutting"
 description:
   A queue is a norm with no physical enforcement at all — this week asks why
-  it holds anyway, and exactly how it fails.
+  it holds anyway, and exactly how it fails. Assignment 2 due this week.
 week: 9
 date: 2027-09-20
 teachers:
+  - ingrid-halvorsen
   - perpetua-vance
+  - amara-chukwu
+related:
+  - assessments/assignment-2
+slides: /decks/week-09/
 ---
 
 A queue is, structurally, nothing: no rope, no numbered ticket in most cases,
@@ -31,3 +36,5 @@ course opened with: find the smallest act that still counts as a violation.
 - a spectrum of cutting, from "excuse me, is this the line" to walking
   straight to the front
 - case studies: queues that forked, merged badly, and never really recovered
+- your Assignment 2 is due this week — see the
+  [assessment page](/assessments/assignment-2/) for what it's marked against

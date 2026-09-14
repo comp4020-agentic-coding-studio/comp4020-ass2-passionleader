@@ -6,7 +6,10 @@ description:
 week: 10
 date: 2027-09-27
 teachers:
+  - haruto-tanaka
   - emeka-osei
+  - wei-lin-chow
+slides: /decks/week-10/
 ---
 
 The public restroom runs on a norm found almost nowhere else in this course:

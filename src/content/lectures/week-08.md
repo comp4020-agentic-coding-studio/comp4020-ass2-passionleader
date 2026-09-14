@@ -7,6 +7,9 @@ week: 8
 date: 2027-09-13
 teachers:
   - emeka-osei
+  - perpetua-vance
+  - lachlan-reeve
+slides: /decks/week-08/
 ---
 
 A footpath at peak hour behaves like a fluid: a rough average speed, a rough

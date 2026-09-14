@@ -6,9 +6,12 @@ description:
 week: 6
 date: 2027-08-30
 teachers:
+  - lachlan-reeve
   - perpetua-vance
+  - rosa-mercado
 related:
   - sessions/midpoint-crit
+slides: /decks/week-06/
 ---
 
 Public transport puts strangers closer together, for longer, than almost any

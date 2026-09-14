@@ -6,7 +6,10 @@ description:
 week: 7
 date: 2027-09-06
 teachers:
-  - perpetua-vance
+  - amara-chukwu
+  - emeka-osei
+  - ingrid-halvorsen
+slides: /decks/week-07/
 ---
 
 Littering is unusual among this course's case studies because it has almost

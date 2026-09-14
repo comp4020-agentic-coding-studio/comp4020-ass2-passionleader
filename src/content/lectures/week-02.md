@@ -6,7 +6,10 @@ description:
 week: 2
 date: 2027-08-02
 teachers:
-  - emeka-osei
+  - wei-lin-chow
+  - perpetua-vance
+  - haruto-tanaka
+slides: /decks/week-02/
 ---
 
 A cough is unusual among public nuisances in that it starts out involuntary

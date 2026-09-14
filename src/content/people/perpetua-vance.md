@@ -17,8 +17,10 @@ Etiquette is the course that resulted: the belief that a norm is never better
 understood than at the moment someone deliberately, visibly breaks it.
 
 She holds strong opinions about the elevator door-close button (week 3) and
-weaker ones about almost everything else, which she considers appropriate for
-someone running a department of one and a half people.
+weaker ones about almost everything else. In the department's founding year
+she used to describe it as "running a department of one and a half people" —
+a line that stopped being accurate somewhere around hire number four, and
+that she now only trots out to make the newer staff wince.
 
 Consultation hours are posted on the [Field Exercises](/sessions/) page each
 teaching period; email gets a reply inside two working days.

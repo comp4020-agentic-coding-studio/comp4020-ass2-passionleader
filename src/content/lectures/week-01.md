@@ -7,6 +7,8 @@ week: 1
 date: 2027-07-26
 teachers:
   - perpetua-vance
+  - emeka-osei
+  - lachlan-reeve
 slides: /decks/week-01/
 related:
   - sessions/orientation
