@@ -55,7 +55,8 @@ already describe when this happens to them, rather than an invented scenario
 ([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a53f1b5a5b1f3a42c1e35245f89ead17359)),
 and deck photography moved from generated vector art to real, attributed
 stock photography once the vector style stopped carrying a convincing
-before/after beat on its own.
+before/after beat on its own
+([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44)–[`e13cc1c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e13cc1c75e027505fea6aa8d8f5f2923d6427aca)).
 
 ## Reflection
 
