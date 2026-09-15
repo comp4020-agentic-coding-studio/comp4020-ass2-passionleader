@@ -4,8 +4,11 @@ build; run manually to (re)produce src/assets/images/card.png and hero-home.png.
 import math
 from PIL import Image, ImageDraw, ImageFont
 
-CREAM = (242, 232, 213)
-GOLD = (185, 125, 28)
+# Matches src/styles/brand.css's bright red palette: a warm near-white
+# background (in the same direction as the theme's derived --at-bg for a red
+# primary) with the brand red as the accent, ink for the sneeze-burst mark.
+CREAM = (251, 243, 242)
+ACCENT = (192, 24, 47)
 INK = (26, 26, 26)
 
 SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
@@ -21,20 +24,26 @@ def prohibited(draw, cx, cy, r, width, color):
 
 
 def sneeze_burst(draw, cx, cy, color, scale=1.0):
-    # a flat "head" (circle) with a burst of droplet arcs, no facial detail
-    head_r = 46 * scale
-    draw.ellipse([cx - head_r, cy - head_r, cx + head_r, cy + head_r], fill=color)
-    for i, ang in enumerate(range(-40, 45, 20)):
-        rad = math.radians(ang)
-        length = (70 + (i % 3) * 22) * scale
-        x0 = cx + head_r * 0.9 * math.cos(rad)
-        y0 = cy + head_r * 0.9 * math.sin(rad)
-        x1 = cx + length * math.cos(rad)
-        y1 = cy + length * math.sin(rad)
-        draw.line([x0, y0, x1, y1], fill=color, width=int(9 * scale))
-        draw.ellipse(
-            [x1 - 7 * scale, y1 - 7 * scale, x1 + 7 * scale, y1 + 7 * scale], fill=color
-        )
+    # a sad little teardrop with a flat, dejected face — the mark also used
+    # for the site's favicon/logo (see src/assets/images/brand), so this
+    # function's look and the standalone brand assets must be kept in sync.
+    r = 46 * scale
+    draw.ellipse([cx - r, cy - r * 0.35, cx + r, cy + r * 1.35], fill=color)
+    draw.polygon(
+        [(cx - r * 0.62, cy), (cx + r * 0.62, cy), (cx, cy - r * 1.3)], fill=color
+    )
+    er = r * 0.18
+    ex, ey = r * 0.35, r * 0.1
+    draw.ellipse([cx - ex - er, cy + ey - er, cx - ex + er, cy + ey + er], fill=CREAM)
+    draw.ellipse([cx + ex - er, cy + ey - er, cx + ex + er, cy + ey + er], fill=CREAM)
+    mw = r * 0.42
+    draw.arc(
+        [cx - mw, cy + ey + r * 0.28, cx + mw, cy + ey + r * 0.28 + mw],
+        start=200,
+        end=340,
+        fill=CREAM,
+        width=max(3, int(r * 0.09)),
+    )
 
 
 def make_card():
@@ -45,7 +54,7 @@ def make_card():
     d.rectangle([0, 0, w - 1, h - 1], outline=INK, width=10)
 
     sneeze_burst(d, 250, 300, INK, scale=1.5)
-    prohibited(d, 250, 300, 165, 16, GOLD)
+    prohibited(d, 250, 300, 165, 16, ACCENT)
 
     title_font = ImageFont.truetype(SERIF_BOLD, 74)
     sub_font = ImageFont.truetype(SANS, 32)
@@ -53,7 +62,7 @@ def make_card():
 
     d.text((470, 190), "Weaponised", font=title_font, fill=INK)
     d.text((470, 270), "Etiquette", font=title_font, fill=INK)
-    d.text((470, 360), "a field course in public nuisance", font=sub_font, fill=GOLD)
+    d.text((470, 360), "a field course in public nuisance", font=sub_font, fill=ACCENT)
     d.text((470, 410), "SLOP2950 · Slop University", font=code_font, fill=INK)
 
     im.save("src/assets/images/card.png")
@@ -82,7 +91,7 @@ def make_hero():
             if row == offender_row and i == offender_col:
                 ox, oy = x, y
                 continue
-            d.ellipse([x - r, y - r, x + r, y + r], fill=GOLD)
+            d.ellipse([x - r, y - r, x + r, y + r], fill=ACCENT)
 
     # the offending attendee, mid-sneeze, breaking the pattern in ink
     sneeze_burst(d, ox, oy, INK, scale=0.95)

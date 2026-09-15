@@ -2,6 +2,9 @@ node_modules/
 dist/
 *.log
 
+# Python bytecode cache from the scripts/ image-generation scripts
+__pycache__/
+
 # Astro's generated types and build cache
 .astro/
 

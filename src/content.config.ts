@@ -70,6 +70,39 @@ export const collections = {
       .loose(),
   }),
 
+  tutorials: defineCollection({
+    loader: courseNodeLoader("tutorials"),
+    schema: courseNodeSchema
+      .extend({
+        week: weekSchema,
+        date: z.coerce.date(),
+        teachers: teacherRefs.optional(),
+      })
+      .loose(),
+  }),
+
+  quizzes: defineCollection({
+    loader: courseNodeLoader("quizzes"),
+    schema: courseNodeSchema
+      .extend({
+        week: weekSchema,
+        questions: z
+          .array(
+            z
+              .object({
+                question: z.string().trim().min(1),
+                options: z.array(z.string().trim().min(1)).min(2),
+                correctIndex: z.number().int().min(0),
+              })
+              .refine((q) => q.correctIndex < q.options.length, {
+                message: "correctIndex must index into options",
+              }),
+          )
+          .min(1),
+      })
+      .loose(),
+  }),
+
   people: defineCollection({
     loader: courseNodeLoader("people"),
     schema: ({ image }) =>

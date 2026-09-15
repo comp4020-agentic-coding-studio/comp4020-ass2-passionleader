@@ -11,9 +11,9 @@ a norm, not literal second-person instructions ("do X to a stranger"). Keep
 all content (lectures, sessions, assessments, the hero copy, policies) in that
 descriptive/cataloguing voice. Never write content that reads as genuine
 advice to cause real harm (deliberately spreading illness, endangering
-someone, deceiving them about safety). The Practicum Demonstration is the one
+someone, deceiving them about safety). The Live Practicum is the one
 place the course asks students to act rather than observe, and it is scoped
-narrowly (a supervised Field Exercise, a consenting cohort) — see
+narrowly (a supervised Drop-in Session, a consenting cohort) — see
 `src/pages/policies/index.mdx` for the exact boundary. Any new content that
 touches the Practicum should respect that boundary rather than widen it.
 
@@ -41,3 +41,8 @@ touches the Practicum should respect that boundary rather than widen it.
 - Load `pnpm dev` and actually look at the page a change touches before
   calling it done — a passing build doesn't confirm the content reads
   correctly or that a link resolves to the right place.
+- "Look at the page" means actually reading the rendered output, not just
+  confirming the dev server returns 200 — a duplicated "Week N:" title sat
+  on all 12 lecture pages, undetected by every build/typecheck/test run,
+  until a full-site screenshot pass actually looked at the `<h1>`. Schema
+  and link checks don't substitute for this.

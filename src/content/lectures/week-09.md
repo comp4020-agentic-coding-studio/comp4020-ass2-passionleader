@@ -1,31 +1,42 @@
 ---
-title: "Week 9: Queueing Culture and the Ethics of Cutting"
+title: "Week 9: Common Manners III — Applying the Framework"
 description:
-  A queue is a norm with no physical enforcement at all — this week asks why
-  it holds anyway, and exactly how it fails.
+  A synthesis week — no new case, just the bad-manner/good-manner method
+  turned back on three earlier cases to see whether it actually
+  generalises. Assignment 2 due this week.
 week: 9
 date: 2027-09-20
 teachers:
+  - ingrid-halvorsen
   - perpetua-vance
+  - amara-chukwu
+related:
+  - assessments/assignment-2
+slides: /decks/week-09/
 ---
 
-A queue is, structurally, nothing: no rope, no numbered ticket in most cases,
-just an agreement among strangers about whose turn it is. That it holds at
-all — that dozens of people will stand in a line enforced by nothing but
-mutual glaring — is this course's cleanest example of a norm doing the work
-of a rule.
+This closes the course's "common manners" thread, and it deliberately
+introduces no new physical space. Instead it turns the method itself back
+on three cases already built earlier in the course — the elevator (Week 3),
+café seat-saving (Week 5), and transit space (Week 6) — and asks the same
+two questions of each: what makes the act deniable or contestable, and
+what the Good manner version actually costs against the harm it replaces.
 
-This week studies where that agreement is strongest (a single-file line with
-a clear front) and where it's weakest (an ambiguous cluster near a counter,
-a queue that forked around an obstacle and never re-merged cleanly). We treat
-"cutting" as a spectrum: the person who asks first, the person who exploits
-an ambiguous merge, and the person who simply walks to the front, each of
-whom is met with a different intensity of social response.
+The point isn't to re-teach these cases. A method that only ever explains
+the case it was invented for hasn't really been tested. Re-applying it to
+cases the room already understands is what shows whether isolating the
+act, naming the contested part, and stating a plain verdict actually
+generalises — or whether forcing every case into the same Bad manner / Good
+manner shape flattens something that mattered.
 
 ## Outline
 
-- the queue as an unenforced norm, and why it holds anyway
-- where queues are structurally strong versus structurally ambiguous
-- a spectrum of cutting, from "excuse me, is this the line" to walking
-  straight to the front
-- case studies: queues that forked, merged badly, and never really recovered
+- why this week revisits rather than introduces: testing the method against
+  cases already on the table
+- the elevator, revisited: a door-close button that does almost nothing,
+  and who gets to decide that's deniable
+- café seat-saving, revisited: what changes when a room fills up
+- transit space, revisited: intent versus anatomy, one more time
+- discussion: where the method held up, and where it flattened something
+- your Assignment 2 is due this week — see the
+  [assessment page](/assessments/assignment-2/) for what it's marked against

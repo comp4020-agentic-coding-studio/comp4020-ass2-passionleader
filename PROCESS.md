@@ -12,73 +12,75 @@ cover every deliverable.
 
 ## What I built
 
-SLOP2950 "Weaponised Etiquette" is a fictional-but-complete twelve-week course
-that studies public-etiquette violations (elevators, queues, coughs, litter,
-seat-saving, pedestrian flow) as an academic discipline: watch a norm, isolate
-the smallest deliberate act that breaks it, describe precisely what happens.
-Weeks 2–10 are case-study weeks, Week 11 is a supervised live Practicum, and
-Week 12 is a capstone report — with three assessments (25/35/40%) marking
-each stage.
+SLOP2950 "Weaponised Etiquette" is a fictional twelve-week course that treats
+public-etiquette violations as an academic discipline: watch a norm, isolate
+the deliberate act that breaks it, describe precisely what happens next. I
+wanted the voice to read as a straight-faced, over-evaluated university
+course — heavy on lecture/quiz/tutorial/assignment structure, light on
+anything actually worth teaching — rather than a literal list of "how to
+annoy people," so tone was a first-class constraint from the first commit
+([`aa41a59`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/aa41a59377219e7087f4392ff5280415a3ba58d0),
+[`85b99c2`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/85b99c2)).
 
-## How I got here
+## The breakthrough: a harness that has to look, not just pass
 
-I started from a rough Korean-language idea about an exaggerated "how to be a
-public nuisance" course, and my own first job was turning that premise into
-something I could actually build against the platform: a real course code,
-level, and semester in `src/course-config.ts`, and a renamed session label
-("Field Exercises" rather than the generic default) in `src/site-config.ts`
-([`4477e95`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/4477e95670744d68f43938db85062a6208ac8f32)).
-Deciding the tone mattered here: the brief's premise reads as literal harmful
-advice if taken at face value, so I kept the course's own voice
-analytical/cataloguing throughout, and made that an explicit rule in
-`CLAUDE.md`
-([`63fdb0a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/63fdb0a5b9e44fa6bf2f0c5363fe898f769ed21c)).
+The real turning point wasn't a feature, it was a harness rule: I split the
+work into role-scoped agents modelled on an actual small team —
+design-assets, ux, qa, teaching-a, teaching-b — and told `qa` specifically to
+open the rendered page with headless Chrome and read it, not just trust
+`pnpm check`
+([`6eb0523`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/6eb0523ad87a3e18e15d2389581510bd08822e70),
+[`63fdb0a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/63fdb0a5b9e44fa6bf2f0c5363fe898f769ed21c)).
+That rule earned its keep almost immediately: a duplicated "Week N:" title had
+shipped to all twelve lecture pages, invisible to every typecheck/build/test
+run, and was only caught once a screenshot pass actually looked at the `<h1>`
+([`0208664`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/0208664131d233404f3a491e5bd930b1cc28e60e)).
 
-The starter's placeholder images hash-match a check the evidence gate runs
-specifically for this deliverable, so I wrote a small PIL script
-(`scripts/gen_brand_art.py`) to generate the card and hero art myself rather
-than sourcing photography — a flat two-ink illustration of the hero image's
-own subject: a lecture theatre where one seat, mid-sneeze, is ringed like a
-prohibited sign
-([`5e4b154`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5e4b1540a170efd9d61bd447f8ed9566943f9b9d)).
-No AVIF encoder was available locally, so I deleted the old `.avif` rather
-than force a re-encode — the evidence check treats a deleted starter file as
-passing, which I read as a sanctioned design decision rather than a workaround.
+What the harness didn't do was save time the way I expected. Once revision
+requests started stacking up — reframe a week, restyle a palette, redo a
+photo set — coordinating five roles ran mostly sequentially rather than in
+parallel, for noticeably more tokens than doing the same change in one
+continuing session. The pattern that actually worked afterward was narrower:
+build one sample end-to-end, show it to me, let me pick a direction, then
+roll the rest out in that style — the Week 3 elevator slide went through
+exactly that spike-then-rollout sequence before the other eight case-study
+weeks followed it
+([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44),
+later
+[`1b36245`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/1b36245bc3eb59211334e64afc9fa971dbaa78d9),
+[`e13cc1c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e13cc1c75e027505fea6aa8d8f5f2923d6427aca)).
+The same discipline shaped content, not just images: tutorial "record your
+reaction" prompts are built around the kind of before/after reaction people
+already describe when this happens to them, rather than an invented scenario
+([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a53f1b5a5b1f3a42c1e35245f89ead17359)),
+and deck photography moved from generated vector art to real, attributed
+stock photography once the vector style stopped carrying a convincing
+before/after beat on its own
+([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44)–[`e13cc1c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e13cc1c75e027505fea6aa8d8f5f2923d6427aca)).
 
-From there it was mostly content, built collection by collection against the
-Zod schemas already defined in `src/content.config.ts`: two personas replacing
-the starter's people
-([`84433c6`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/84433c60329c82f673ee4486c1b8aee4161bf201)),
-all twelve lecture weeks
-([`aa41a59`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/aa41a59377219e7087f4392ff5280415a3ba58d0)),
-three Field Exercise sessions
-([`5266d02`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/5266d0218c6ce4b848e25883e33a9e004a4f6a61)),
-and three assessments whose weights I checked by hand sum to exactly 100
-([`b000996`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/b000996a845894433ee653960caa31a01cf4457c)),
-then a real astromotion slide deck for Week 1
-([`85feec7`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/85feec7ec4544717bbc9fa4463394b9e0872f4c0))
-and the homepage/404/policies copy, including a policies page that states
-plainly where the course's "live performance" is actually scoped to
-([`c6350b0`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/c6350b048f232ac02f7a21e35e3d116255ace5a6)).
+## Reflection
 
-I knew the result was right by running `pnpm check` after every slice — build,
-typecheck, and `spec/` — rather than trusting the schema alone; the shipped
-`data-integrity.test.ts` catches date drift, but the course's other real
-promises (weights summing to 100, every named teacher resolving to a real
-profile, a lecture's `slides` field actually pointing at a built deck) weren't
-covered anywhere, so I wrote
-[`spec/course-promises.test.ts`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/eb779306d72ff0dc3c7f67d5fc0f42d270d048b4)
-against the built course API to close that gap. I also ran the site under
-`pnpm dev`, hit every collection's index and a sample detail page with `curl`,
-and read the generated hero image back to confirm it actually renders the way
-I intended before pushing.
+**What was the breakthrough that moved the work forward?** Not a tool, a
+constraint: forcing `qa` to look at the rendered screenshot instead of the
+check output is what caught the duplicated-title bug that no automated pass
+would have flagged
+([`0208664`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/0208664131d233404f3a491e5bd930b1cc28e60e)).
+The second, quieter breakthrough was noticing where the multi-agent harness
+stopped paying for itself and replacing wholesale delegation with a
+spike-first workflow instead
+([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44)).
+A third showed up in content, not process: the model has no built-in sense
+of what a believable "this is what manners is" moment sounds like, so every
+tutorial's reaction beat had to be checked against how people actually
+describe these moments in real discussion, not invented from a guess
+([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a53f1b5a5b1f3a42c1e35245f89ead17359)).
 
-## Before you ship
-
-`pnpm check:evidence` verifies that this comment is gone, that your citations
-resolve to real commits, that a crit week's reflection entry is in
-`reflections/`, and that your `CLAUDE.md` is there. It checks that your account
-is traceable, not that it is good: that is the marker's call.
-
-Images aren't checked: unlike a citation whose SHA doesn't resolve, a broken
-image is visible the moment this file is rendered on GitHub.
+**What did this change about who I want to be as a developer?** I started
+this wanting to hand a whole course off to a "team" and check in at the end.
+I came out of it wanting to run that team the way a PM would: deciding per
+task whether the work actually needs five roles debating it, or one
+continuing session showing me drafts to react to — instead of defaulting to
+maximum delegation just because the harness makes it possible. The same
+lesson applies to content, not just process: judging whether a "manner"
+example is actually believable is still a call I have to make myself, not
+one I can hand to the model.

@@ -11,7 +11,7 @@ import { sessionLabels, siteConfig } from "../site-config";
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   heroImage={heroImage}
-  heroImageAlt="A raked lecture theatre drawn as flat gold dots, one seat singled out in black by a sneeze-burst icon inside a prohibited-sign ring"
+  heroImageAlt="A raked lecture theatre drawn as flat blue dots, one seat singled out in black by a sneeze-burst icon inside a prohibited-sign ring"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">
@@ -23,10 +23,10 @@ import { sessionLabels, siteConfig } from "../site-config";
     Each week you pick one public space — an elevator, a library, a queue —
     and apply the same method to it: watch the unwritten rule as it actually
     operates, isolate the smallest deliberate act that would break it, and
-    write down precisely what happens next. By Week 4 that method produces a
-    Case Study; by Week 11 you perform a technique live, under supervision;
-    by Week 12 you turn a semester of small violations into a single
-    analytical report.
+    write down precisely what happens next. By Week 5 that method produces
+    Assignment 1; by Week 9 it produces Assignment 2; by Week 11 you perform
+    a technique live, under supervision; and Week 12's Final Exam tests how
+    well the method itself has stuck, on cases you haven't seen before.
   </p>
 
   <h2>Who it is for</h2>
@@ -40,14 +40,26 @@ import { sessionLabels, siteConfig } from "../site-config";
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>
-    <Card title={sessionLabels.plural} href="/sessions/">
-      <p>The weekly schedule and what happens in each teaching session.</p>
+    <Card title="Lectures" href="/lectures/">
+      <p>What is covered, week by week, and which topics each lecture draws on.</p>
+    </Card>
+    <Card title="Tutorial" href="/tutorials/">
+      <p>The weekly activity that turns each lecture's method into something you do.</p>
+    </Card>
+    <Card title="Quiz" href="/quizzes/">
+      <p>A short check, week by week, on whether that week's method landed.</p>
     </Card>
     <Card title="Assessment" href="/assessments/">
       <p>What is marked, what it is worth, and when it is due.</p>
     </Card>
+    <Card title={sessionLabels.plural} href="/sessions/">
+      <p>The weekly schedule and what happens in each teaching session.</p>
+    </Card>
     <Card title="People" href="/people/">
       <p>Who teaches the course and how to reach them.</p>
+    </Card>
+    <Card title="Resources & Policies" href="/policies/">
+      <p>Readings, referencing, slides — plus the rules on late work and integrity.</p>
     </Card>
   </CardGrid>
 </ContentLayout>

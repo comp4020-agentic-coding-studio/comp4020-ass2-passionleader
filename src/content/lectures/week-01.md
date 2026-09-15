@@ -7,6 +7,8 @@ week: 1
 date: 2027-07-26
 teachers:
   - perpetua-vance
+  - emeka-osei
+  - lachlan-reeve
 slides: /decks/week-01/
 related:
   - sessions/orientation
@@ -29,6 +31,6 @@ write it up.
 
 - what "etiquette" is, described as an unwritten protocol rather than a
   moral fact
-- the course's method: observe, isolate, violate on purpose, describe
-- how the case-study weeks are structured, and what the Field Exercises are for
+- the course's method: observe, isolate, describe
+- how the case-study weeks are structured, and what the Drop-in Sessions are for
 - what "weaponised" means here, and what it explicitly does not mean

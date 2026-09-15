@@ -1,31 +1,39 @@
 ---
-title: "Week 2: The Social Semiotics of the Cough and the Sneeze"
+title: "Week 2: The Classroom"
 description:
-  Reading involuntary noise as a signal — and what changes, socially, the
-  moment a cough stops being involuntary.
+  One room, two entirely different kinds of violation — a cough at the
+  fully deniable end, an answered phone call at the fully overt end.
 week: 2
 date: 2027-08-02
 teachers:
+  - wei-lin-chow
+  - haruto-tanaka
   - emeka-osei
+slides: /decks/week-02/
 ---
 
-A cough is unusual among public nuisances in that it starts out involuntary
-and everyone in earshot knows it. That is exactly what makes it interesting:
-the moment a room decides a particular cough was "on purpose," the social
-contract around it changes completely — sympathy becomes suspicion, and an
-apology becomes mandatory where it wasn't before.
+This week is a dedicated space case: the classroom. It hosts two entirely
+different kinds of violation, and the distance between them is the whole
+point. At one end sits the cough — a sound that starts out involuntary and
+stays technically indistinguishable from an accident, however pointed a
+room privately reads it. At the other end sits conduct nobody could
+possibly call accidental: unwrapping a crinkly or strong-smelling snack
+mid-lecture, or answering a phone call and continuing it without leaving
+the room. Bringing food into a lecture, opening it, and answering a call
+are all visible choices — nobody watching needs to interpret anything.
 
-This week catalogues the signals a room actually reads: timing (does it
-interrupt someone speaking), aim (was there a person in the blast radius),
-and aftermath (was it acknowledged). We ask what the minimum viable
-"deniable" version of a deliberate cough looks like — not as an instruction
-to go and cough on anyone, but as an analysis of why the line between
-accident and message is so easy to blur and so hard to prove.
+Where the cough's whole interest is in how hard intent is to prove, this
+week's second case has the opposite interest: intent was never in doubt, so
+what the room actually argues about is proportionality — how much
+disruption a given choice was worth, and to whom. We catalogue the signals
+a room reads for the cough (timing, target, aftermath) before turning to
+conduct where none of that interpretive work is needed at all.
 
 ## Outline
 
-- involuntary versus performed sounds, and how a room tells them apart
-- the etiquette that already exists here (sleeve, hand, turned head) and why
-  it exists
-- case studies in ambiguity: coughs a room can't decide about
-- discussion: what should "case study" mean for a topic this personal
+- what makes conduct "deniable": timing, target, aftermath, and the room's
+  private verdict it can never quite prove
+- case one: the cough, and how a room decides it was on purpose anyway
+- case two: overt classroom conduct — crinkly or strong-smelling food,
+  phone calls answered in the room
+- discussion: what changes when intent is never in question at all

@@ -2,13 +2,14 @@
 title: "Week 4: Modelling Noise Propagation in a Library"
 description:
   How sound actually travels through a reading room, and why "shush" is such
-  an unreliable countermeasure. Case Study due this week.
+  an unreliable countermeasure.
 week: 4
 date: 2027-08-16
 teachers:
+  - haruto-tanaka
+  - wei-lin-chow
   - emeka-osei
-related:
-  - assessments/case-study
+slides: /decks/week-04/
 ---
 
 A library is one of the few public spaces where the ambient noise floor is a
@@ -20,7 +21,9 @@ with a norm ("the library is quiet") that most people enforce only by glaring.
 
 We also look at the shush itself as a countermeasure — louder, socially, than
 almost anything it's deployed against — and ask why a room will tolerate a
-five-minute phone call before anyone says a word, but not a ten-second shush.
+five-minute phone call before anyone says a word, but not a ten-second shush. The shush is this week's case of the method in
+reverse: a room isolating and naming the violation out loud, which is
+exactly what makes it feel worse than the noise it's answering.
 
 ## Outline
 
@@ -28,5 +31,5 @@ five-minute phone call before anyone says a word, but not a ten-second shush.
   loud ones
 - the shush as a disproportionate response, and why it still works
 - case studies: the noises a library punishes and the ones it lets go
-- your Case Study is due this week — see the
-  [assessment page](/assessments/case-study/) for what counts as evidence
+- discussion: why "the library is quiet" is enforced by glares rather than
+  any actual authority

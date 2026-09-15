@@ -1,34 +1,54 @@
 ---
-title: "Week 7: Littering as Micro-Aggression"
+title: "Week 7: Common Manners — Queueing and Threshold Litter"
 description:
-  A dropped wrapper costs the dropper nothing and someone else something —
-  this week prices out exactly who pays, and how much.
+  Two space-agnostic public-commons cases — a queue held together by
+  nothing but mutual glaring, and litter that piles up in the last few
+  metres before a bin. Assignment 2 due this week.
 week: 7
 date: 2027-09-06
 teachers:
+  - ingrid-halvorsen
   - perpetua-vance
+  - amara-chukwu
+related:
+  - assessments/assignment-2
+slides: /decks/week-07/
 ---
 
-Littering is unusual among this course's case studies because it has almost
-no immediate audience — the person who benefits from not carrying a wrapper
-to a bin is rarely watched doing it, and the person who eventually pays (a
-council worker, a passer-by, whoever's shoe finds it first) is rarely the
-person who saw it happen. That gap between act and consequence is what makes
-it a useful case: most of this course's etiquette is enforced by an audience
-in real time, and littering mostly isn't.
+This week studies two cases that share one property: neither is tied to
+any single physical space. A queue forms wherever strangers need to agree,
+without ever discussing it, on whose turn it is. Litter accumulates
+wherever a bin is close enough to reach and somebody chooses not to. Both
+are commons behaviors — the pattern repeats at a store counter, a bus stop,
+a food stall, or a footpath, with no physical enforcement beyond what
+other people are willing to do about it.
 
-This week asks what happens to a norm when you remove the audience. We look
-at where litter actually accumulates (thresholds — the last three metres
-before a bin, the base of a sign) as a kind of survey of exactly how much
-inconvenience people will tolerate before they stop carrying something.
+A queue is, structurally, nothing: no rope, no numbered ticket in most
+cases, just an agreement among strangers about whose turn it is. That it
+holds at all — that dozens of people will stand in a line enforced by
+nothing but mutual glaring — is this course's cleanest example of a norm
+doing the work of a rule. We treat "cutting" as a spectrum: the person who
+asks first, the person who exploits an ambiguous merge, and the person who
+simply walks to the front, each met with a different intensity of social
+response.
+
+Litter's interest is almost the opposite: it has almost no immediate
+audience. The person who benefits from not carrying a wrapper to a bin is
+rarely watched doing it, and the person who eventually pays is rarely the
+person who saw it happen. Isolating the act here means reading the
+aftermath instead of watching the moment — the same method as the queue,
+applied where there was never really an audience to begin with.
 
 ## Outline
 
-- the audience-less nuisance, and why it behaves differently from the rest
-  of the course
-- threshold litter: what accumulates just short of a bin, and what that
-  distance tells you
-- who actually pays, and when (if ever) that cost returns to the person who
-  dropped it
-- discussion: does removing the audience change the ethics, or only the
-  enforcement
+- the queue as an unenforced norm, and why it holds anywhere strangers form
+  a line
+- where queues are structurally strong versus structurally ambiguous
+- a spectrum of cutting, from "excuse me, is this the line" to walking
+  straight to the front
+- threshold litter: what accumulates before a bin, and what that distance
+  tells you about tolerance for inconvenience
+- discussion: what queueing and litter share as commons behaviors with no
+  fixed venue
+- your Assignment 2 is due this week — see the
+  [assessment page](/assessments/assignment-2/) for what it's marked against
