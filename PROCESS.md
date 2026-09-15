@@ -69,10 +69,18 @@ The second, quieter breakthrough was noticing where the multi-agent harness
 stopped paying for itself and replacing wholesale delegation with a
 spike-first workflow instead
 ([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44)).
+A third showed up in content, not process: the model has no built-in sense
+of what a believable "this is what manners is" moment sounds like, so every
+tutorial's reaction beat had to be checked against how people actually
+describe these moments in real discussion, not invented from a guess
+([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a53f1b5a5b1f3a42c1e35245f89ead17359)).
 
 **What did this change about who I want to be as a developer?** I started
 this wanting to hand a whole course off to a "team" and check in at the end.
 I came out of it wanting to run that team the way a PM would: deciding per
 task whether the work actually needs five roles debating it, or one
 continuing session showing me drafts to react to — instead of defaulting to
-maximum delegation just because the harness makes it possible.
+maximum delegation just because the harness makes it possible. The same
+lesson applies to content, not just process: judging whether a "manner"
+example is actually believable is still a call I have to make myself, not
+one I can hand to the model.
