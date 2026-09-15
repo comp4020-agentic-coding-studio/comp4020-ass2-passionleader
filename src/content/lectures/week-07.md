@@ -3,7 +3,7 @@ title: "Week 7: Common Manners — Queueing and Threshold Litter"
 description:
   Two space-agnostic public-commons cases — a queue held together by
   nothing but mutual glaring, and litter that piles up in the last few
-  metres before a bin. Assignment 2 due this week.
+  metres before a bin. An early heads-up — Assignment 2 is due in Week 9.
 week: 7
 date: 2027-09-06
 teachers:
@@ -50,5 +50,5 @@ applied where there was never really an audience to begin with.
   tells you about tolerance for inconvenience
 - discussion: what queueing and litter share as commons behaviors with no
   fixed venue
-- your Assignment 2 is due this week — see the
+- a heads-up: Assignment 2 is due in Week 9 — see the
   [assessment page](/assessments/assignment-2/) for what it's marked against
