@@ -14,7 +14,11 @@ cover every deliverable.
 
 SLOP2950 "Weaponised Etiquette" is a fictional twelve-week course that treats
 public-etiquette violations as an academic discipline: watch a norm, isolate
-the deliberate act that breaks it, describe precisely what happens next. I
+the deliberate act that breaks it, describe precisely what happens next. The
+topic follows from a premise about what a good course is: it satirises
+something no real degree would teach, while staying genuinely useful —
+manners are learned, vary by culture, and where the line sits is
+subjective, yet no class actually covers it. I
 wanted the voice to read as a straight-faced, over-evaluated university
 course rather than a literal list of "how to annoy people," so tone was a
 first-class constraint from the first commit
@@ -57,19 +61,14 @@ revision rounds ran mostly sequentially, for more tokens than one continuing
 session doing the same change. The pattern that worked afterward was
 narrower: build one sample end-to-end, show it to me, let me pick a
 direction, then roll the rest out in that style — the Week 3 elevator slide
-went through exactly that sequence before the other eight case-study weeks
-followed it
+went first
 ([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44),
 [`1b36245`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/1b36245bc3eb59211334e64afc9fa971dbaa78d9),
 [`e13cc1c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e13cc1c75e027505fea6aa8d8f5f2923d6427aca)).
 The same discipline shaped content: tutorial "record your reaction" prompts
 are grounded in how people actually describe these moments, not an invented
 scenario
-([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a53f1b5a5b1f3a42c1e35245f89ead17359)),
-and deck photography moved from generated vector art to real, attributed
-stock photography once the vector style stopped carrying a convincing
-before/after beat on its own
-([`df8a346`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/df8a346ae8ab7e18247fddd9104c0dc88141ef44)–[`e13cc1c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/e13cc1c75e027505fea6aa8d8f5f2923d6427aca)).
+([`557f3a5`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-passionleader/commit/557f3a53f1b5a5b1f3a42c1e35245f89ead17359)).
 
 ## Reflection
 
