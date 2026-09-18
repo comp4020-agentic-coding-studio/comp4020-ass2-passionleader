@@ -28,5 +28,3 @@ lecture theatre decides a particular cough wasn't an accident. She is
 cross-appointed with the Centre for Ambient Ethics, alongside Dr. Tanaka, and
 the two of them disagree cheerfully about whether a classroom or a library is
 the harder room to read.
-
-Photo: Ketut Subiyanto / Pexels

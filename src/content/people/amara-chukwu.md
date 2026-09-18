@@ -26,5 +26,3 @@ the last few metres before a bin, and what doesn't — are the closest thing thi
 department has to a genuinely quantitative case study, and she is quick to
 point out that it's also the one norm in the course that almost nobody
 enforces in real time.
-
-Photo: Katerina Holmes / Pexels

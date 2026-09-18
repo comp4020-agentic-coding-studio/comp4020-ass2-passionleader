@@ -26,5 +26,3 @@ Her research prices out exactly when a seat-saving claim holds and when it
 collapses — scarcity, visibility, and how a room decides a contested seat is
 actually empty. She is, by her own admission, incapable of walking past an
 unattended chair in a crowded café without mentally logging it as data.
-
-Photo: Vitaly Gariev / Pexels

@@ -34,5 +34,3 @@ She also co-teaches Week 9, where the department turns its own method back
 on cases it already built — the elevator, seat-saving, transit space — to
 check whether "isolate the act, name the contest, state the verdict"
 actually holds up once you already know the answer.
-
-Photo: Max Fischer / Pexels

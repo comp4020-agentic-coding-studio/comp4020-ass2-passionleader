@@ -26,5 +26,3 @@ bus or subway carriage, and moonlights as the department's informal
 historian, which is
 mostly an excuse to open the Week 1 lecture with whichever archival
 etiquette-manual excerpt he found most recently.
-
-Photo: Darion Dewhirst / Unsplash

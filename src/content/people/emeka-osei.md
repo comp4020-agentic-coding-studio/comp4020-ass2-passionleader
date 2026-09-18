@@ -27,5 +27,3 @@ footpath width — and, earlier in his career, the audience-less nuisance:
 violations like littering that carry almost no witness at the moment they
 happen, which is where his 2019 paper feeds into Week 7's threshold-litter
 case. He will discuss either at length if asked.
-
-Photo: Yan Krukau / Pexels

@@ -27,5 +27,3 @@ problem — both are shared spaces that manage sound entirely through
 pretence — and is cross-appointed with Slop University's Centre for Ambient
 Ethics, where he keeps insisting the restroom paper deserves more attention
 than the library one.
-
-Photo: Yan Krukau / Pexels
