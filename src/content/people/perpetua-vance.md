@@ -28,5 +28,3 @@ that she now only trots out to make the newer staff wince.
 
 Consultation hours are posted on the [Drop-in Sessions](/sessions/) page each
 teaching period; email gets a reply inside two working days.
-
-Photo: Vitaly Gariev / Pexels
